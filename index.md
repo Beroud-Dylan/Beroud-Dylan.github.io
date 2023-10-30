@@ -9,11 +9,12 @@ Ceci est un tableau :
 |ABC|B|
 |    C    |    D    |
 
-Dans le texte ordinaire [^1] vous pouvez facilement placer des notes de bas de page [^2]
+Dans le texte ordinaire[^1] vous pouvez facilement placer des notes de bas de page[^2]
 
-Voici une image à regarder : ![](./Images/Slacken_1.png)
+Voici une image à regarder : 
+![](./Images/Slacken_1.png)
 
-<video width="320" height="240" controls>
+<video width="1280" height="720" controls>
   <source src="./Videos/TrailerRock'n'Fall.mp4" type="video/mp4">
 </video>
 
