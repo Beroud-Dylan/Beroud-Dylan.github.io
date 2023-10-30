@@ -13,13 +13,9 @@ Dans le texte ordinaire [^1] vous pouvez facilement placer des notes de bas de p
 
 Voici une image à regarder : ![](./Images/Slacken_1.png)
 
-```html
-<html>
 <video width="320" height="240" controls>
   <source src="./Videos/TrailerRock'n'Fall.mp4" type="video/mp4">
 </video>
-</html>
-```
 
 
 [^1]: Vous trouverez ici le texte de la note de bas de page.
