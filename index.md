@@ -10,6 +10,11 @@ Ceci est un tableau :
 |    C    |    D    |
 
 Dans le texte ordinaire [^1] vous pouvez facilement placer des notes de bas de page [^2]
+
+Voici une image à regarder : ![](./Images/Slacken_1.png)
+Voici la vidéo à regarder : ![](./Videos/TrailerRock'n'Fall.mp4)
+
+
 [^1]: Vous trouverez ici le texte de la note de bas de page.
  [^2]: **Note de page de page** peut aussi être *formatée*.
 Et celles-ci comprennent même plusieurs lignes
