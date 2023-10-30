@@ -1,3 +1,2 @@
-theme: jekyll-theme-midnight
-# Main website
-This is the repository that hosts my personal website.
+# Présentation
+Ceci est le répertoire qui contient mon site personnel. Vous pouvez le voir en cliquant [ici](https://beroud-dylan.github.io) !
