@@ -5,6 +5,5 @@ Voici un lien vers une [autre page](./another-page.md).
 
 Ceci est un tableau :
 |cellule 1|cellule 2|
-|-|-|
 |    A    |    B    |
 |    C    |    D    |
