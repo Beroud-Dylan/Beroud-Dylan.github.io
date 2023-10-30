@@ -11,7 +11,7 @@ Ceci est un tableau :
 
 Dans le texte ordinaire [^1] vous pouvez facilement placer des notes de bas de page [^2]
 
-[![Voici une image à regarder :](./Images/RatAttack_1.png)](./Images/Slacken_1.png)
+[![Voici une image à regarder :]](./Images/Slacken_1.png)
 
 ```html
 <html>
