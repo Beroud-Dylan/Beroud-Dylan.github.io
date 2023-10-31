@@ -16,7 +16,7 @@ Dans le texte ordinaire[^1] vous pouvez facilement placer des notes de bas de pa
 Voici une image à regarder : 
 [![Ceci est un texte survolé](./Images/Slacken_1.png)](./another-page.html)
 
-<video width="1280" height="720" controls>
+<video width="320" height="180" controls>
   <source src="./Videos/TrailerRock'n'Fall.mp4" type="video/mp4">
 </video>
 
