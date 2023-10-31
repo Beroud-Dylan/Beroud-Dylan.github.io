@@ -8,10 +8,10 @@ This is the repository that hosts my personal website.
 Voici un lien vers une [autre page](./another-page.md).
 
 Ceci est un tableau :
-|cellule 1|cellule 2|
-|:--------|--------:|
-|ABC      |B        |
-|    C    |    D    |
+| cellule 1| cellule 2|
+|:---------|---------:|
+| ABC      | B        |
+|    C     |    D     |
 
 Ceci est une phrase. \n Ceci est une phrase après un saut de ligne.
 
