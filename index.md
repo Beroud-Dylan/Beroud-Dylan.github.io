@@ -12,7 +12,7 @@ Ceci est un tableau :
 Dans le texte ordinaire[^1] vous pouvez facilement placer des notes de bas de page[^2]
 
 Voici une image à regarder : 
-![](./Images/Slacken_1.png)
+![[](./another-page.md)](./Images/Slacken_1.png)
 
 <video width="1280" height="720" controls>
   <source src="./Videos/TrailerRock'n'Fall.mp4" type="video/mp4">
