@@ -20,6 +20,7 @@ Voici une image à regarder :
 </video>
 </center>
 
+Ceci est une preuve de mise à jour.
 
 [^1]: Vous trouverez ici le texte de la note de bas de page.
  [^2]: **Note de page de page** peut aussi être *formatée*.
