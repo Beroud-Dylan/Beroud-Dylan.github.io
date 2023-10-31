@@ -7,6 +7,7 @@ Cependant, il est aussi la **réalisation personnelle de mon manque d'expérienc
 
 Je vous présente alors humblement ce projet, en temps que plus grande fierté, mais en toute humilité.
 
+
 ## Informations
 - Moteur de jeu : Unity 3D
 - Type : Sandbox
@@ -14,6 +15,7 @@ Je vous présente alors humblement ce projet, en temps que plus grande fierté, 
 - Assets Utilisées : Aucune
 - Durée de réalisation : 2 ans
 - Plateformes : Windows, Mac, Linux.
+
 
 ## Génération Procédurale
 Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du bruit de Perlin. Le tout est entièrement déterminé par une **graine de génération** et est ensuite sauvegardé automatiquement.
