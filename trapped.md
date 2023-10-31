@@ -16,7 +16,7 @@ Je vous présente alors humblement ce projet, en temps que plus grande fierté, 
 - Plateformes : Windows, Mac, Linux.
 
 ## Génération Procédurale
-Comme le jeu dont est fortement inspiré ce projet, ce jeu génère une carte de **voxels** procéduralement, à l'aide du bruit de Perlin. Le tout est entièrement déterminé par une **graine de génération** et est ensuite sauvegardé automatiquement.
+Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du bruit de Perlin. Le tout est entièrement déterminé par une **graine de génération** et est ensuite sauvegardé automatiquement.
 <video width="720" height="480" controls>
   <source src="./Videos/GenerationProcedurale.mp4" type="video/mp4">
 </video>
