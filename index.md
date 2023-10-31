@@ -14,9 +14,11 @@ Dans le texte ordinaire[^1] vous pouvez facilement placer des notes de bas de pa
 Voici une image à regarder : 
 ![[](./another-page.md)](./Images/Slacken_1.png)
 
+<center>
 <video width="1280" height="720" controls>
   <source src="./Videos/TrailerRock'n'Fall.mp4" type="video/mp4">
 </video>
+</center>
 
 
 [^1]: Vous trouverez ici le texte de la note de bas de page.
