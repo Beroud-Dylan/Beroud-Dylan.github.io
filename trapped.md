@@ -6,16 +6,16 @@ Ce jeu est le plus gros projet sur lequel j'ai pu travailler jusqu'à présent. 
 Cependant, il est aussi la **réalisation personnelle de mon manque d'expérience**. En effet, je me suis lancé dans un tel projet à l'âge de 15 ans, immédiatement après avoir réalisé mon premier jeu. Cela m'a certes apporté énormément de connaissance en terme d'**organisation**, de **technique de programmation** et d'**assiduité**, mais cela m'a également mis face à la réalité : j'étais incapable d'optimiser un tel programme.
 
 Je vous présente alors humblement ce projet, en temps que plus grande fierté, mais en toute humilité.
-
+<br>
 
 ## Informations
-- Moteur de jeu : Unity 3D
-- Type : Sandbox
-- Status : Abandonné
-- Assets Utilisées : Aucune
-- Durée de réalisation : 2 ans
-- Plateformes : Windows, Mac, Linux.
-
+- **Moteur de jeu :** Unity 3D
+- **Type :** Sandbox
+- **Status :** Abandonné
+- **Assets Utilisées :** Aucune
+- **Durée de réalisation :** 2 ans
+- **Plateformes :** Windows, Mac, Linux.
+<br>
 
 ## Génération Procédurale
 Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du bruit de Perlin. Le tout est entièrement déterminé par une **graine de génération** et est ensuite sauvegardé automatiquement.
