@@ -5,8 +5,8 @@ Voici un lien vers une [autre page](./another-page.md).
 
 Ceci est un tableau :
 |cellule 1|cellule 2|
-|:-------|-------:|
-|ABC|B|
+|:--------|--------:|
+|ABC      |B        |
 |    C    |    D    |
 
 Ceci est une phrase. \n Ceci est une phrase après un saut de ligne.
@@ -14,7 +14,7 @@ Ceci est une phrase. \n Ceci est une phrase après un saut de ligne.
 Dans le texte ordinaire[^1] vous pouvez facilement placer des notes de bas de page[^2]
 
 Voici une image à regarder : 
-[![Ceci est un texte survolé](./Images/Slacken_1.png)](./another-page.html)
+[![](./Images/Slacken_1.png)](./another-page.html)
 
 <video width="320" height="180" controls>
   <source src="./Videos/TrailerRock'n'Fall.mp4" type="video/mp4">
