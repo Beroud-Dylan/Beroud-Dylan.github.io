@@ -30,21 +30,21 @@
 
   Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "**biomes**", qui représentent des environnements types. Il y en a un total de 9, possédant chacun des **souterrains** mais aussi des **îles flottantes** uniques.
 <div style="justify-content: center;">
-  <img src="./Images/VolcanoBiome.png" alt="Image 1" style="margin-right: 10px;">
-  <img src="./Images/DesertBiome.png" alt="Image 2" style="margin-right: 10px;">
-  <img src="./Images/InGameView.png" alt="Image 3" style="margin-right: 10px;">
+  <img src="./Images/VolcanoBiome.png" alt="Image 1" style="width: 33%;">
+  <img src="./Images/DesertBiome.png" alt="Image 2" style="width: 33%;">
+  <img src="./Images/InGameView.png" alt="Image 3" style="width: 33%;">
 </div>
 <br>
   Exemples de caves et d'îles flottantes :
 <div style="justify-content: center;">
-  <img src="./Images/FrozenCave.png" alt="Image 4" style="margin-right: 10px;">
-  <img src="./Images/FloatingIslands.png" alt="Image 5" style="margin-right: 10px;">
+  <img src="./Images/FrozenCave.png" alt="Image 4" style="width: 48%;">
+  <img src="./Images/FloatingIslands.png" alt="Image 5" style="width: 48%;">
 </div>
 <br>
   Il y a aussi un système d'**ambiance** qui ajoute un brouillard dans certaines zones :
 <div style="justify-content: center;">
-  <img src="./Images/FrozenForest.png" alt="Image 6" style="margin-right: 10px;">
-  <img src="./Images/IrradiatedBiome.png" alt="Image 7" style="margin-right: 10px;">
+  <img src="./Images/FrozenForest.png" alt="Image 6" style="width: 48%;">
+  <img src="./Images/IrradiatedBiome.png" alt="Image 7" style="width: 48%;">
 </div>
 <br>
   Et enfin, chaque biome ayant un terrain différent, il y a une gestion des transitions entre ceux-ci :
