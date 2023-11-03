@@ -73,6 +73,10 @@
 <br><br>
 
 ## Physique
-
+  Le joueur peut se déplacer dans toutes les directions, en **marchant**, **courant**, **sautant** ou en **nageant** s'il se trouve dans un liquide. Ces actions consommeront de **l'endurance** et certaines ne lui seront plus accessibles s'il n'en a plus. De plus, certains blocks modifient ces déplacements : les feuilles ralentissent le joueur et la glace le fait glisser.
+  <div style="max-width: 100%;">
+  <video src="./Videos/Trapped_Sliding.mp4" type="video/mp4" controls></video>
+</div>
+<br><br>
 
   
