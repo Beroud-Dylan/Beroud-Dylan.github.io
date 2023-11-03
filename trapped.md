@@ -35,6 +35,27 @@ Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "**bio
   <img src="./Images/DesertBiome.png" alt="Image 2" style="width: 32%;">
   <img src="./Images/InGameView.png" alt="Image 3" style="width: 32%;">
 </div>
+<br>
+Exemples de caves et d'îles flottantes :
+<div>
+  <img src="./Images/FloatingIslands.png" alt="Image 4" style="width: 48%;">
+  <img src="./Images/FrozenCaves.png" alt="Image 5" style="width: 48%;">
+</div>
+<br>
+Il y a aussi un système "d'ambiance" qui ajoute un brouillard dans certaines zones :
+<div>
+  <img src="./Images/FrozenForest.png" alt="Image 6" style="width: 48%;">
+  <img src="./Images/IrradiatedBiome.png" alt="Image 7" style="width: 48%;">
+</div>
+<br>
+Et enfin, chaque biome ayant un terrain différent, il y a une gestion des transitions entre ceux-ci :
+<div>
+  <img src="./Images/BiomeTransitions.png" alt="Image 8">
+</div>
+<br><br>
+
+## Interactions
+eee
 
 ## Temp Test
 Voici un lien vers une [autre page](./trapped.md).
