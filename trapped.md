@@ -36,8 +36,8 @@
 <br>
   Exemples de caves et d'îles flottantes :
 <div style="display: flex; justify-content: center;">
-  <img src="./Images/FloatingIslands.png" alt="Image 4" style="margin-right: 10px;">
-  <img src="./Images/FrozenCave.png" alt="Image 5" style="margin-right: 10px;">
+  <img src="./Images/FrozenCave.png" alt="Image 4" style="margin-right: 10px;">
+  <img src="./Images/FloatingIslands.png" alt="Image 5" style="margin-right: 10px;">
 </div>
 <br>
   Il y a aussi un système d'**ambiance** qui ajoute un brouillard dans certaines zones :
