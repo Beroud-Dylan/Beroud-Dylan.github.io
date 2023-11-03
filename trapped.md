@@ -19,7 +19,7 @@
 
 ## Génération Procédurale
   Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du *Bruit de Perlin*. Le tout est entièrement déterminé par une **graine de génération** et est ensuite **sauvegardé** automatiquement.
-<video width="320" height="240" controls>
+<video width="720" controls>
   <source src="./Videos/GenerationProcedurale.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
 </video>
@@ -30,9 +30,9 @@
 
   Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "**biomes**", qui représentent des environnements types. Il y en a un total de 9, possédant chacun des **souterrains** mais aussi des **îles flottantes** uniques.
 <div style="justify-content: center;">
-  <img src="./Images/VolcanoBiome.png" alt="Image 1" style="width: 33%;">
-  <img src="./Images/DesertBiome.png" alt="Image 2" style="width: 33%;">
-  <img src="./Images/InGameView.png" alt="Image 3" style="width: 33%;">
+  <img src="./Images/VolcanoBiome.png" alt="Image 1" style="width: 32%;">
+  <img src="./Images/DesertBiome.png" alt="Image 2" style="width: 32%;">
+  <img src="./Images/InGameView.png" alt="Image 3" style="width: 32%;">
 </div>
 <br>
   Exemples de caves et d'îles flottantes :
