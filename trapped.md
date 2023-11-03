@@ -19,9 +19,10 @@
 
 ## Génération Procédurale
   Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du *Bruit de Perlin*. Le tout est entièrement déterminé par une **graine de génération** et est ensuite **sauvegardé** automatiquement.
-<div style="max-width: 100%;">
-  <video src="./Videos/GenerationProcedurale.mp4" type="video/mp4" controls></video>
-</div>
+<video width="320" height="240" controls>
+  <source src="./Videos/GenerationProcedurale.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+</video>
 <br><br>
 
 ## Environnement
