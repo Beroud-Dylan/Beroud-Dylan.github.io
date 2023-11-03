@@ -28,26 +28,26 @@
   Dans ce jeu, nous étions censé incarner un alien recherchant des planètes habitables pour la survie de son espèce dont le vaisseau s'est écrasé sur Terre. Étant vous-mêmes humain, vous serez intrigués d'apprendre pourquoi il ne reste qu'un **espace limité par un champs de force**, l'humanité est revenue à **l'âge de pierre** et pourquoi **certains évènements rendent toutes les créatures follent**...
 
   Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "**biomes**", qui représentent des environnements types. Il y en a un total de 9, possédant chacun des **souterrains** mais aussi des **îles flottantes** uniques.
-<div style="display: flex; justify-content: center;">
+<div style="justify-content: center;">
   <img src="./Images/VolcanoBiome.png" alt="Image 1" style="margin-right: 10px;">
   <img src="./Images/DesertBiome.png" alt="Image 2" style="margin-right: 10px;">
   <img src="./Images/InGameView.png" alt="Image 3" style="margin-right: 10px;">
 </div>
 <br>
   Exemples de caves et d'îles flottantes :
-<div style="display: flex; justify-content: center;">
+<div style="justify-content: center;">
   <img src="./Images/FrozenCave.png" alt="Image 4" style="margin-right: 10px;">
   <img src="./Images/FloatingIslands.png" alt="Image 5" style="margin-right: 10px;">
 </div>
 <br>
   Il y a aussi un système d'**ambiance** qui ajoute un brouillard dans certaines zones :
-<div style="display: flex; justify-content: center;">
+<div style="justify-content: center;">
   <img src="./Images/FrozenForest.png" alt="Image 6" style="margin-right: 10px;">
   <img src="./Images/IrradiatedBiome.png" alt="Image 7" style="margin-right: 10px;">
 </div>
 <br>
   Et enfin, chaque biome ayant un terrain différent, il y a une gestion des transitions entre ceux-ci :
-<div style="display: flex; justify-content: center;">
+<div style="justify-content: center;">
   <img src="./Images/BiomeTransitions.png" alt="Image 8">
 </div>
 <br><br>
