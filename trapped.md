@@ -3,7 +3,7 @@
 
   Ce jeu est le plus gros projet sur lequel j'ai pu travailler jusqu'à présent. Il représente **2 ans** de développement, que ce soit dans la rédaction d'un [Game Design Document](https://docs.google.com/document/d/1_1KQkmH81AEaGpWc58F0cResZkfwV0hweFI6ZmrWNoI/edit?usp=sharing) ainsi que dans la réalisation du projet, disponible dans sa dernière version sur [itch.io](https://mcdown.itch.io/trapped).
 
-  Cependant, il est aussi la **réalisation personnelle de mon manque d'expérience**. En effet, je me suis lancé dans un tel projet à l'âge de 15 ans, immédiatement après avoir réalisé mon premier jeu. Cela m'a certes apporté énormément de connaissance en terme d'**organisation**, de **technique de programmation** et d'**assiduité**, mais cela m'a également mis face à la réalité : j'étais incapable d'optimiser un tel programme.
+  Cependant, il est aussi la **réalisation personnelle de mon manque d'expérience**. En effet, je me suis lancé dans un tel projet à l'âge de 15 ans, immédiatement après avoir réalisé mon premier jeu. Cela m'a certes apporté énormément de connaissance en termes d'**organisation**, de **technique de programmation** et d'**assiduité**, mais cela m'a également mis face à la réalité : j'étais incapable d'optimiser un tel programme.
 
   Je vous présente alors humblement ce projet, en temps que plus grande fierté, mais en toute humilité.
 <br><br>
@@ -18,7 +18,7 @@
 <br><br>
 
 ## Génération Procédurale
-  Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du *Bruit de Perlin*. Le tout est entièrement déterminé par une **graine de génération** et est ensuite **sauvegardé** automatiquement.
+  Comme le jeu dont est fortement inspiré ce projet, le monde, composé de **voxels** (ou blocks), est généré **procéduralement**, à l'aide du *Bruit de Perlin*. Le tout est entièrement déterminé par une **graine de génération** et est ensuite **sauvegardé** automatiquement.
 <video width="660" controls>
   <source src="./Videos/GenerationProcedurale.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
@@ -26,9 +26,9 @@
 <br><br>
 
 ## Environnement
-  Dans ce jeu, nous étions censé incarner un alien recherchant des planètes habitables pour la survie de son espèce dont le vaisseau s'est écrasé sur Terre. Étant vous-mêmes humain, vous serez intrigués d'apprendre pourquoi il ne reste qu'un **espace limité par un champs de force**, l'humanité est revenue à **l'âge de pierre** et pourquoi **certains évènements rendent toutes les créatures follent**...
+  Dans ce jeu, nous étions censé incarner un alien recherchant des planètes habitables pour la survie de son espèce et dont le vaisseau s'est écrasé sur Terre. Étant vous-mêmes humain, vous serez intrigués d'apprendre pourquoi il ne reste qu'un **espace limité par un champ de force**, pourquoi l'humanité est revenue à **l'âge de pierre** et pourquoi **certains évènements rendent toutes les créatures follent**...
 
-  Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "**biomes**", qui représentent des environnements types. Il y en a un total de 9, possédant chacun des **souterrains** mais aussi des **îles flottantes** uniques.
+  Au stade actuel du développement, je n'ai pu créer que ce qu'on appelle des "**biomes**", qui représentent des environnements types. Il y en a un total de 9, possédant chacun des **souterrains** mais aussi des **îles flottantes** uniques.
 <div style="justify-content: center;">
   <img src="./Images/VolcanoBiome.png" alt="Image 1" style="width: 32%;">
   <img src="./Images/DesertBiome.png" alt="Image 2" style="width: 32%;">
@@ -54,9 +54,9 @@
 <br><br>
 
 ## Interactions
-  Le joueur est capable d'interagir avec ces voxels (ou blocks) : il peut les **sélectionner**, **poser** et les **casser**. De plus, les blocks peuvent interagir entre eux de manière **indépendente**.
+  Le joueur est capable d'interagir avec ces blocks : il peut les **sélectionner**, les **poser** et les **casser**. De plus, les blocks peuvent interagir entre eux de manière **indépendente**.
 
-  C'est le cas par exemple de block de magma avec de la pierre :
+  C'est le cas par exemple des blocks de magma avec des blocks de pierre :
 <video width="660" controls>
   <source src="./Videos/Trapped_HotStone.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
@@ -68,7 +68,7 @@
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
 </video>
 <br>
-  Ou simplement lorsqu'on pose un block sur de la terre :
+  Ou simplement lorsque l'on pose un block sur de la terre :
 <video width="660" controls>
   <source src="./Videos/Trapped_GrassToDirt.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
@@ -76,7 +76,8 @@
 <br><br>
 
 ## Physique
-  Le joueur peut se déplacer dans toutes les directions, en **marchant**, **courant**, **sautant** ou en **nageant** s'il se trouve dans un liquide. Ces actions consommeront de **l'endurance** et certaines ne lui seront plus accessibles s'il n'en a plus. De plus, certains blocks modifient ces déplacements : les feuilles ralentissent le joueur et la glace le fait glisser.
+  Le joueur peut se déplacer dans toutes les directions, en **marchant**, **courant**, **sautant** ou en **nageant** s'il se trouve dans un liquide. Ces actions consommeront de **l'endurance** et certaines ne lui seront plus accessibles s'il n'en a plus.<br>
+De plus, certains blocks modifient ces déplacements : les feuilles ralentissent le joueur et la glace le fait glisser.
 <video width="660" controls>
   <source src="./Videos/Trapped_Sliding.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
