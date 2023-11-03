@@ -84,4 +84,4 @@ De plus, certains blocks modifient ces déplacements : les feuilles ralentissent
 </video>
 <br><br>
 
-[^1] : [Retour](./index.md)
+[![](./Images/Retour.png)](./index.md)
