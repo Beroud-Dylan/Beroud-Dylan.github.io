@@ -40,7 +40,7 @@
   <img src="./Images/FrozenCave.png" alt="Image 5" style="margin-right: 10px;">
 </div>
 <br>
-  Il y a aussi un système "d'ambiance" qui ajoute un brouillard dans certaines zones :
+  Il y a aussi un système d'**ambiance** qui ajoute un brouillard dans certaines zones :
 <div style="display: flex; justify-content: center;">
   <img src="./Images/FrozenForest.png" alt="Image 6" style="margin-right: 10px;">
   <img src="./Images/IrradiatedBiome.png" alt="Image 7" style="margin-right: 10px;">
