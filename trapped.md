@@ -57,19 +57,22 @@
   Le joueur est capable d'interagir avec ces voxels (ou blocks) : il peut les **sélectionner**, **poser** et les **casser**. De plus, les blocks peuvent interagir entre eux de manière **indépendente**.
 
   C'est le cas par exemple de block de magma avec de la pierre :
-<div style="max-width: 100%;">
-  <video src="./Videos/HotStone.mp4" type="video/mp4" controls></video>
-</div>
+<video width="680" controls>
+  <source src="./Videos/HotStone.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+</video>
 <br>
   De certains liquides entre eux :
-<div style="max-width: 100%;">
-  <video src="./Videos/LiquidReaction.mp4" type="video/mp4" controls></video>
-</div>
+<video width="680" controls>
+  <source src="./Videos/LiquidReaction.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+</video>
 <br>
   Ou simplement lorsqu'on pose un block sur de la terre :
-<div style="max-width: 100%;">
-  <video src="./Videos/GrassToDirt.mp4" type="video/mp4" controls></video>
-</div>
+<video width="680" controls>
+  <source src="./Videos/GrassToDirt.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+</video>
 <br><br>
 
 ## Physique
