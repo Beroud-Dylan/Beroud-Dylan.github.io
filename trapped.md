@@ -19,7 +19,7 @@
 
 ## Génération Procédurale
   Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxels** est généré **procéduralement**, à l'aide du *Bruit de Perlin*. Le tout est entièrement déterminé par une **graine de génération** et est ensuite **sauvegardé** automatiquement.
-<video width="720" controls>
+<video width="680" controls>
   <source src="./Videos/GenerationProcedurale.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
 </video>
@@ -74,7 +74,7 @@
 
 ## Physique
   Le joueur peut se déplacer dans toutes les directions, en **marchant**, **courant**, **sautant** ou en **nageant** s'il se trouve dans un liquide. Ces actions consommeront de **l'endurance** et certaines ne lui seront plus accessibles s'il n'en a plus. De plus, certains blocks modifient ces déplacements : les feuilles ralentissent le joueur et la glace le fait glisser.
-<video width="720" controls>
+<video width="680" controls>
   <source src="./Videos/Trapped_Sliding.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
 </video>
