@@ -23,6 +23,16 @@ Comme le jeu dont est fortement inspiré ce projet, le monde composé de **voxel
 [![Aperçu de la vidéo](./Images/BiomesTransition.png)](./Videos/GenerationProcedurale.mp4)
 <br><br>
 
+## Environnement
+Dans ce jeu, nous étions censé incarner un alien recherchant des planètes habitables pour la survie de son espèce dont le vaisseau s'est écrasé sur la planète Terre. Cependant, la Terre telle que nous la connaissons n'est plus la même. Étant vous-mêmes humain, vous serez intrigués de savoir pourquoi il ne reste qu'un espace limité par un champs de force, l'humanité est revenue à l'âge de pierre et pourquoi certains évènements rendent toutes les créatures follent...
+
+Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "biomes", qui représentent des environnements types. Il y en a un total de 9, possédant chacun des sous-terrains mais aussi des îles flottantes uniques.
+<div>
+  <img src="./Images/VolcanoBiome.png" alt="Image 1" style="width: 32%;">
+  <img src="./Images/DesertBiome.png" alt="Image 2" style="width: 32%;">
+  <img src="./Images/InGameView.png" alt="Image 3" style="width: 32%;">
+</div>
+
 ## Temp Test
 Voici un lien vers une [autre page](./trapped.md).
 
