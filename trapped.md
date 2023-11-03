@@ -39,7 +39,7 @@ Au stade actuel du développement, je n'ai pu créer ce qu'on appelle des "**bio
 Exemples de caves et d'îles flottantes :
 <div>
   <img src="./Images/FloatingIslands.png" alt="Image 4" style="width: 48%;">
-  <img src="./Images/FrozenCaves.png" alt="Image 5" style="width: 48%;">
+  <img src="./Images/FrozenCave.png" alt="Image 5" style="width: 48%;">
 </div>
 <br>
 Il y a aussi un système "d'ambiance" qui ajoute un brouillard dans certaines zones :
