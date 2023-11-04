@@ -4,7 +4,7 @@
 
   À l'occasion du concours voodoo, je me suis également lancé dans la création d'un jeu hypercasual. Ce jeu avait pour simple objectif de **sortir de ma zone de confort** en réalisant un projet totalement différent des précédents.
   
-  Ainsi, dans ce jeu, il est question de faire **tomber une sorte de rocher** sans que celui-ci ne se prenne d'obstacle. En prenant de la vitesse, le rocher peut arriver à **casser certaines plateformes**. Il est possible de récupérer des **pièces** ou des **boosts** tout au long d'une partie. Enfin, les niveaux sont générés **procéduralement**.
+  Ainsi, dans ce jeu, il est question de faire **tomber une sorte de rocher** sans que celui-ci ne se prenne d'obstacles. En prenant de la vitesse, le rocher peut arriver à **casser certaines plateformes**. Il est également possible de récupérer des **pièces** ou des **boosts** tout au long d'une partie. Enfin, les niveaux sont générés **procéduralement**.
 <br><br>
 
 ## Informations
