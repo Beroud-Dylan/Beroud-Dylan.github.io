@@ -25,6 +25,7 @@
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-    <div><a href="./index.html">Retour à la page principale</a></div>
+    <div><a href="./trapped.html">Retour</a></div>
+    <div><a href="./index.html">Accueil</a></div>
     <div><a href="./rocknfall.html">Projet suivant</a></div>
 </div>
