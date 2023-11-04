@@ -84,4 +84,5 @@ De plus, certains blocks modifient ces déplacements : les feuilles ralentissent
 </video>
 <br><br>
 
+[Appuyez ici](./index.html) {: .btn}
 [![](./Images/Retour.png)](./index.html)
