@@ -84,5 +84,13 @@ De plus, certains blocks modifient ces déplacements : les feuilles ralentissent
 </video>
 <br><br>
 
+<style>
+.btn {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+}
+</style>
+
 [Appuyez ici](./index.html) {: .btn}
 [![](./Images/Retour.png)](./index.html)
