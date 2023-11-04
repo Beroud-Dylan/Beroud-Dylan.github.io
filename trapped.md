@@ -84,4 +84,8 @@ De plus, certains blocks modifient ces déplacements : les feuilles ralentissent
 </video>
 <br>
 
-[Retour à la page principale](./index.html)
+<div style="display: flex; justify-content: space-between;">
+    <div>[Retour à la page principale](./index.html)</div>
+    <div>[Projet suivant](./slacken.html)</div>
+</div>
+
