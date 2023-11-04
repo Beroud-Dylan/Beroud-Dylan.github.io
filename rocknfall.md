@@ -1,4 +1,4 @@
-<img src="./Images/Rock'n'Fall_1.png" alt="Rock'n'Fall Logo" width="200" height="200">
+<img src="./Images/Rock'n'Fall_1.png" alt="Rock'n'Fall Logo" width="100" height="100">
 
 # Rock'n'Fall
 
