@@ -14,7 +14,7 @@
 - **Status :** Abandonné
 - **Assets Utilisées :** Aucune
 - **Durée de réalisation :** 2 ans
-- **Plateformes :** Windows, Mac, Linux.
+- **Plateformes :** Windows, Mac, Linux
 <br><br>
 
 ## Génération Procédurale
