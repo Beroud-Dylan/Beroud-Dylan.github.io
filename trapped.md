@@ -82,6 +82,6 @@ De plus, certains blocks modifient ces déplacements : les feuilles ralentissent
   <source src="./Videos/Trapped_Sliding.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos HTML5.
 </video>
-<br><br>
+<br>
 
 [Retour à la page principale](./index.html)
