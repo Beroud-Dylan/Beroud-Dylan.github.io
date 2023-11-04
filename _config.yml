@@ -1,5 +1,7 @@
 title: Site Personnel de Beroud Dylan
 description: Développeur de logiciels et étudiant au CESI
 show_downloads: true
-google_analytics:
+header_pages:
+  - text: Accueil
+    url: /
 theme: jekyll-theme-midnight
