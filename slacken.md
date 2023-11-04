@@ -1,4 +1,4 @@
-<img src="./Images/Slacken_1.png" alt="Slacken Logo" width="200" height="200">
+<img src="./Images/Slacken_1.png" alt="Slacken Logo" width="100" height="100">
 
 # Slacken
 
