@@ -1,4 +1,4 @@
-<a href="https://mcdown.itch.io/ratattack"> <img src="./Images/RatAttackLogo.png" alt="RatAttack Logo" width="100" height="100"></a>
+<a href="https://mcdown.itch.io/ratattack"> <img src="./Images/RatAttackLogo.PNG" alt="RatAttack Logo" width="100" height="100"></a>
 
 # RatAttack
 
