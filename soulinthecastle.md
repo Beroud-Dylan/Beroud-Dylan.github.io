@@ -2,7 +2,7 @@
 
 # SoulInTheCastle
 
-  À l'occasion d'une game jam organisée par le vidéaste francophone "Tuto Unity FR" datant de mai 2020, je me suis lancé dans la création d'un jeu sur le thème "Les dés sont jetés". Vous pouvez le retrouver sur [itch.io](https://mcdown.itch.io/soul-in-the-castle).
+  À l'occasion d'une **game jam** organisée par le vidéaste francophone "Tuto Unity FR" datant de mai 2020, je me suis lancé dans la création d'un jeu sur le thème "Les dés sont jetés". Vous pouvez le retrouver sur [itch.io](https://mcdown.itch.io/soul-in-the-castle).
   
   Dans celui-ci, il est question de **repousser des vagues** de goblins assiégeant le château d'une âme errante. Cependant, le joueur ne peut se débarasser de ses ennemis par lui-même : il doit les **guider vers des pièges** pour s'en débarasser.
 <br><br>
