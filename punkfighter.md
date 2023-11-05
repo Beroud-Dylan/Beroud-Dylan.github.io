@@ -2,7 +2,7 @@
 
 # PunkFighter
 
-  À l'occasion d'une game jam datant de mars 2020, je me suis lancé dans la création d'un jeu sur le thème "Punk". Mon objectif était d'être capable de créer un jeu dans un laps de temps limité, car je participais à ma première game-jam en ligne. 
+  À l'occasion d'une **game jam datant de mars 2020**, je me suis lancé dans la création d'un jeu sur le thème "punk". Mon objectif était d'être capable de créer un jeu dans un **laps de temps limité**, car je participais à ma première game-jam en ligne. 
   
   Vous pouvez retrouver le jeu sur itch.io en cliquant [ici](https://mcdown.itch.io/punkfighter).
   
