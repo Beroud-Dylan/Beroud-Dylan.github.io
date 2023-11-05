@@ -6,7 +6,7 @@
   
   Vous pouvez retrouver le jeu sur itch.io en cliquant [ici](https://mcdown.itch.io/punkfighter).
   
-  Dans ce jeu, il est question de **repousser des vagues** de punks sur une scène à l'aide d'une guitare qui se **charge en son**. Il y a différents types d'ennemis qui se battent dans des styles différents (corps à corps ou à distance). Il est également possible de personnaliser le joueur à l'aide de points gagnés à chaque partie.
+  Dans celui-ci, il est question de **repousser des vagues** de punks sur une scène à l'aide d'une guitare qui se **charge en son**. Il y a différents types d'ennemis qui se battent dans des styles différents (corps à corps ou à distance). Il est également possible de personnaliser le joueur à l'aide de points gagnés à chaque partie.
 <br><br>
 
 ## Informations
