@@ -2,7 +2,7 @@
 
 # RatAttack
 
-  À l'occasion d'une **game jam** organisée par le vidéaste anglophone "b3agz" datant de février 2021, je me suis lancé dans la création d'un jeu sur le thème "swarm". Ce jeu s'est fièrement issé à la **6ème position** sur un total de 28 participations.
+  À l'occasion d'une **game jam** organisée par le vidéaste anglophone "b3agz" datant de février 2021, je me suis lancé dans la création d'un jeu sur le thème "swarm". Ce jeu s'est fièrement issé à la **6ème position** sur un total de 28 submissions.
   
   Vous pouvez retrouver l'ensemble des jeux réalisés pendant cette jam [ici](https://itch.io/jam/b3agz-jam/results) ainsi que RatAttack [ici](https://mcdown.itch.io/ratattack).
   
