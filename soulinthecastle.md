@@ -19,8 +19,8 @@
 ## Présentation
   Voici quelques images extraites du jeu :
   <div style="justify-content: center;">
-    <img src="./Images/SoulInTheCastle_3.png" alt="Image 1" style="width: 48%;">
-    <img src="./Images/SoulInTheCastle_4.png" alt="Image 2" style="width: 48%;">
+    <img src="./Images/SoulInTheCastle_3.PNG" alt="Image 1" style="width: 48%;">
+    <img src="./Images/SoulInTheCastle_4.PNG" alt="Image 2" style="width: 48%;">
   </div>
   <div style="justify-content: center;">
     <img src="./Images/SoulInTheCastle_5.png" alt="Image 3" style="width: 48%;">
