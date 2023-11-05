@@ -19,7 +19,7 @@
 <br><br>
 
 ## Présentation
-  Voici quelques images extraites du jeu.
+  Voici quelques images extraites du jeu :
   <div style="justify-content: center;">
     <img src="./Images/PunkFighter_2.png" alt="Image 1" style="width: 32%;">
     <img src="./Images/PunkFighter_3.png" alt="Image 2" style="width: 32%;">
