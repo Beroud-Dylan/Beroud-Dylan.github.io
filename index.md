@@ -5,8 +5,8 @@ J'étudie actuellement à l'**école d'ingénieurs du CESI** et réalise quelque
 J'aime énormément tout ce qui est lié à l'**univers de la création**. C'est certes assez vaste, mais ça représente aussi l'étendu de ma **curiosité** !<br>
 C'est en découvrant Unity à l'âge de 14 ans que j'ai réellement commencé à me lancer plus sérieusement sur mes passions : **créations de jeux vidéos**, d'**animations** et maintenant de **livres**, je m'épanouis dans ce monde infini de l'imaginaire.
 
-## Projets
-Voici donc une liste non-exhaustive de projets que j'ai réalisé :
+## Jeux
+Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
 <div style="justify-content: center;">
   <a href="./trapped.html"><img src="./Images/Trapped_Logo.png" alt="Trapped Logo" style="width: 32%;"></a>
   <a href="./slacken.html"><img src="./Images/Slacken_1.png" alt="Slacken Logo" style="width: 32%;"></a>
