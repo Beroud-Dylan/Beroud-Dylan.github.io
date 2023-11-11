@@ -21,13 +21,13 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
 </div>
 <br><br>
 
-<footer>
-        <p>`® Tous droits réservés - Beroud Dylan ™`</p>
-        <div style="justify-content: space-between; align-items: center;">
-          <a href="https://www.linkedin.com/in/beroud-dylan/"><img src="./Images/LinkedInLogo.png" alt="LinkedIn Logo" style="width:5%">/in/beroud-dylan</a>
-          <a href="https://www.linkedin.com/in/beroud-dylan/"><img src="./Images/EmailLogo.png" alt="Email Logo" style="width:5%">dylan.beroud13@gmail.com</a>
-        </div>
-</footer>
+-----------------
+## Contact
+<div style="display: flex; justify-content: space-between;">
+    <div><a href="https://www.linkedin.com/in/beroud-dylan/"><img src="./Images/LinkedInLogo.png" alt="LinkedIn Logo" style="width:5%"> /in/beroud-dylan</a></div>
+    <div><a href="https://www.linkedin.com/in/beroud-dylan/"><img src="./Images/EmailLogo.png" alt="Email Logo" style="width:5%"> dylan.beroud13@gmail.com</a></div>
+</div>
+® Tous droits réservés - Beroud Dylan ™
 
 
 
