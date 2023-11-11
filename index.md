@@ -15,8 +15,8 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
   <a href="./rocknfall.html"><img src="./Images/Rock'n'Fall_1.png" alt="Rock'n'Fall Logo" style="width: 32%;"></a>
 </div>
 <div style="justify-content: space-between; align-items: center;">
-  <a href="./punkfighter.html"><img src="./Images/PunkFighter_1.png" alt="PunkFighter Logo" style="width: 32%;"></a>
-  <a href="./soulinthecastle.html"><img src="./Images/SoulInTheCastle_2.png" alt="SoulInTheCastle Logo" style="width: 32%;"></a>
+  <a href="./punkfighter.html"><img src="./Images/PunkFighter_Logo.png" alt="PunkFighter Logo" style="width: 32%;"></a>
+  <a href="./soulinthecastle.html"><img src="./Images/SoulInTheCastle_Logo.png" alt="SoulInTheCastle Logo" style="width: 32%;"></a>
   <a href="./ratattack.html"><img src="./Images/RatAttackLogo.PNG" alt="RatAttack Logo" style="width: 32%;"></a>
 </div>
 <br><br>
