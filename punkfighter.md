@@ -1,4 +1,4 @@
-<a href="https://gamejolt.com/games/PunkFighter/473032"> <img src="./Images/PunkFighter_1.png" alt="PunkFighter Logo" width="100" height="100"></a>
+<a href="https://gamejolt.com/games/PunkFighter/473032"> <img src="./Images/PunkFighter_Logo.png" alt="PunkFighter Logo" width="100" height="100"></a>
 
 # PunkFighter
 
