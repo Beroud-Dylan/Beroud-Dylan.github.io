@@ -20,3 +20,10 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
   <a href="./ratattack.html"><img src="./Images/RatAttackLogo.PNG" alt="RatAttack Logo" style="width: 32%;"></a>
 </div>
 <br><br>
+
+## Contact
+LinkedIn : [@beroud-dylan](https://www.linkedin.com/in/beroud-dylan/)
+Envoyez-moi un <a href="mailto:dylan.beroud13@gmail.com">email</a> !
+
+
+`® Tous droits réservés - Beroud Dylan ™`
