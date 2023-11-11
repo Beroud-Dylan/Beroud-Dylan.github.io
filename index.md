@@ -22,7 +22,7 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
 <br><br>
 
 ## Contact
-LinkedIn : [@beroud-dylan](https://www.linkedin.com/in/beroud-dylan/) <br>
+LinkedIn : [in/beroud-dylan](https://www.linkedin.com/in/beroud-dylan/) <br>
 Envoyez-moi un <a href="mailto:dylan.beroud13@gmail.com">email</a> !
 
 
