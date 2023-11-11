@@ -1,4 +1,4 @@
-<a href="https://gamejolt.com/games/Soul-In-The-Castle/492705"> <img src="./Images/SoulInTheCastle_2.png" alt="SoulInTheCastle Logo" width="100" height="100"></a>
+<a href="https://gamejolt.com/games/Soul-In-The-Castle/492705"> <img src="./Images/SoulInTheCastle_Logo.png" alt="SoulInTheCastle Logo" width="100" height="100"></a>
 
 # SoulInTheCastle
 
@@ -17,15 +17,11 @@
 <br><br>
 
 ## Présentation
-  Voici quelques images extraites du jeu :
-  <div style="justify-content: center;">
-    <img src="./Images/SoulInTheCastle_3.PNG" alt="Image 1" style="width: 46%;">
-    <img src="./Images/SoulInTheCastle_4.PNG" alt="Image 2" style="width: 46%;">
-  </div>
-  <div style="justify-content: center;">
-    <img src="./Images/SoulInTheCastle_5.png" alt="Image 3" style="width: 46%;">
-    <img src="./Images/SoulInTheCastle_6.png" alt="Image 4" style="width: 46%;">
-  </div>
+  Voici un petit gameplay sur ce jeu :
+  <video width="660" controls>
+  <source src="./Videos/SoulInTheCastle_Gameplay.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+  </video>
 <br>
 
 <div style="display: flex; justify-content: space-between;">
