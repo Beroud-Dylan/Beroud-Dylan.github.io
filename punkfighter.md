@@ -19,12 +19,11 @@
 <br><br>
 
 ## Présentation
-  Voici quelques images extraites du jeu :
-  <div style="justify-content: center;">
-    <img src="./Images/PunkFighter_2.png" alt="Image 1" style="width: 32%;">
-    <img src="./Images/PunkFighter_3.png" alt="Image 2" style="width: 32%;">
-    <img src="./Images/PunkFighter_4.png" alt="Image 3" style="width: 32%;">
-  </div>
+  Voici un petit gameplay sur ce jeu :
+  <video width="660" controls>
+  <source src="./Videos/PunkFighter_Gameplay.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+  </video>
 <br>
 
 <div style="display: flex; justify-content: space-between;">
