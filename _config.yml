@@ -1,4 +1,4 @@
 title: Site Personnel de Beroud Dylan
 description: Développeur de jeux et étudiant au CESI
 show_downloads: false
-theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight@v0.2.0
