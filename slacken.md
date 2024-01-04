@@ -8,12 +8,17 @@
 <br><br>
 
 ## Informations
-- **Moteur de jeu :** Unity 2D
-- **Type :** Casual (TPS)
-- **Status :** Fini
-- **Assets Utilisées :** Effets sonores et joysticks
-- **Durée de réalisation :** 20 jours
-- **Plateformes :** Android
+<p>
+  <img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right; margin-top: -60px;">
+<ul>
+  <li><b>Moteur de jeu :</b> Unity 2D</li>
+  <li><b>Type :</b> Casual (TPS)</li>
+  <li><b>Status :</b> Fini</li>
+  <li><b>Assets Utilisées :</b> Effets sonores et joysticks</li>
+  <li><b>Durée de réalisation :</b> 20 jours</li>
+  <li><b>Plateformes :</b> Android</li>
+</ul>
+</p>
 <br><br>
 
 ## Présentation
