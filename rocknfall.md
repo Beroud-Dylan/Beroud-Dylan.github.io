@@ -11,12 +11,14 @@
 
 ## Informations
 <p>
-- **Moteur de jeu :** Unity 2D
-- **Type :** Hypercasual
-- **Status :** Fini
-- **Assets Utilisées :** Effets sonores
-- **Durée de réalisation :** 23 jours
-- **Plateformes :** Android
+<ul>
+  <li><b>Moteur de jeu :</b> Unity 2D</li>
+  <li><b>Type :</b> Hypercasual</li>
+  <li><b>Status :</b> Fini</li>
+  <li><b>Assets Utilisées :</b> Effets sonores</li>
+  <li><b>Durée de réalisation :</b> 23 jours</li>
+  <li><b>Plateformes :</b> Android</li>
+</ul>
   <img src="./Images/Rock'n'Fall_1.png" alt="Lien vers Github" style="float: right;">
 </p>
 <br><br>
