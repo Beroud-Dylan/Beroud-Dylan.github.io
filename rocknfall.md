@@ -11,6 +11,7 @@
 
 ## Informations
 <p>
+  <img src="./Images/Rock'n'Fall_1.png" alt="Lien vers Github" style="float: right;">
 <ul>
   <li><b>Moteur de jeu :</b> Unity 2D</li>
   <li><b>Type :</b> Hypercasual</li>
@@ -19,7 +20,6 @@
   <li><b>Durée de réalisation :</b> 23 jours</li>
   <li><b>Plateformes :</b> Android</li>
 </ul>
-  <img src="./Images/Rock'n'Fall_1.png" alt="Lien vers Github" style="float: right;">
 </p>
 <br><br>
 
