@@ -11,7 +11,7 @@
 
 ## Informations
 <p>
-  <img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right; margin-top: -60px;">
+  <a href="https://github.com/Beroud-Dylan/Rock-n-Fall"><img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right; margin-top: -60px;"></a>
 <ul>
   <li><b>Moteur de jeu :</b> Unity 2D</li>
   <li><b>Type :</b> Hypercasual</li>
