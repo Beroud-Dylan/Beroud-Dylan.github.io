@@ -9,7 +9,7 @@
 
 ## Informations
 <p>
-  <a href="https://github.com/Beroud-Dylan/Slacken"><img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right; margin-top: -60px;"></a>
+  <a href="https://github.com/Beroud-Dylan/Slacken"><img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right; margin-top: -80px;"></a>
 <ul>
   <li><b>Moteur de jeu :</b> Unity 2D</li>
   <li><b>Type :</b> Casual (TPS)</li>
