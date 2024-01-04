@@ -11,7 +11,7 @@
 
 ## Informations
 <p>
-  <img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right;">
+  <img src="./Images/GithubLogo.png" alt="Lien vers Github" width="50%;" style="float: right; margin-top: -20px;">
 <ul>
   <li><b>Moteur de jeu :</b> Unity 2D</li>
   <li><b>Type :</b> Hypercasual</li>
