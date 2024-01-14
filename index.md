@@ -36,9 +36,10 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
       display: flex;
       justify-content: space-around;
       align-items: center;
-      background-color: #F1C300;
-      color: #1D1D1D;
+      background-color: #F1C300; /* Couleur de fond de la timeline */
+      color: #1D1D1D; /* Couleur du texte de la timeline */
       padding: 10px;
+      position: relative;
     }
 
     .timeline-item {
@@ -46,6 +47,7 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
       text-align: center;
       cursor: pointer;
       position: relative;
+      font-weight: bold; /* Texte en gras */
     }
 
     .timeline-item::before {
@@ -62,6 +64,18 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
 
     .timeline-item.active::before {
       background-color: #007bff; /* Couleur pour l'onglet actif */
+    }
+
+    .timeline-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      width: 15px;
+      height: 15px;
+      background-color: #F1C300; /* Couleur de fond de la flèche */
+      border-radius: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
     }
 
     .content {
