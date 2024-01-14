@@ -21,6 +21,106 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
 </div>
 <br><br>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Votre Parcours</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .timeline {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .timeline-item {
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #333;
+      transform: translateY(-50%);
+      z-index: -1;
+    }
+
+    .timeline-item.active::before {
+      background-color: #007bff; /* Couleur pour l'onglet actif */
+    }
+
+    .content {
+      display: none;
+    }
+
+    .content.active {
+      display: block;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="timeline">
+  <div class="timeline-item" onclick="showContent(0)">Étape 1</div>
+  <div class="timeline-item" onclick="showContent(1)">Étape 2</div>
+  <div class="timeline-item" onclick="showContent(2)">Étape 3</div>
+  <!-- Ajoutez plus d'étapes au besoin -->
+</div>
+
+<div id="content-0" class="content active">
+  <h2>Étape 1</h2>
+  <p>Description de l'étape 1.</p>
+</div>
+
+<div id="content-1" class="content">
+  <h2>Étape 2</h2>
+  <p>Description de l'étape 2.</p>
+</div>
+
+<div id="content-2" class="content">
+  <h2>Étape 3</h2>
+  <p>Description de l'étape 3.</p>
+</div>
+
+<script>
+  function showContent(index) {
+    // Masquer tous les contenus
+    var contents = document.querySelectorAll('.content');
+    contents.forEach(function(content) {
+      content.classList.remove('active');
+    });
+
+    // Afficher le contenu correspondant à l'index
+    var selectedContent = document.getElementById('content-' + index);
+    selectedContent.classList.add('active');
+
+    // Mettre en surbrillance l'onglet actif
+    var items = document.querySelectorAll('.timeline-item');
+    items.forEach(function(item) {
+      item.classList.remove('active');
+    });
+    items[index].classList.add('active');
+  }
+</script>
+
+</body>
+
 -----------------
 ### **Contact**
 <div style="display: flex; justify-content: space-between;">
