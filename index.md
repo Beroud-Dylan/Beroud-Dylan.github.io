@@ -36,7 +36,8 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
       display: flex;
       justify-content: space-around;
       align-items: center;
-      background-color: #f0f0f0;
+      background-color: #F1C300;
+      color: #1D1D1D;
       padding: 10px;
     }
 
