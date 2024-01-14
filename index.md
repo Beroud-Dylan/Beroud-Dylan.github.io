@@ -23,6 +23,8 @@ Voici donc une liste non-exhaustive de jeux-vidéos que j'ai réalisés :
 
 ## Blog
 Dans cette section, je partagerai des articles, écrits par moi-même, liés ou non à mes études et à mes recherches académiques. J'aborderai des sujets qui me passionnent, dans un cadre professionnel, dont toutes les ressources associées seront listées.
+<br><br>
+
 -----------------
 ### **Contact**
 <div style="display: flex; justify-content: space-between;">
