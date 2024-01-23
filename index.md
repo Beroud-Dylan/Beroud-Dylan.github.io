@@ -28,7 +28,7 @@ Dans cette section, je partagerai des articles, écrits par moi-même, liés ou 
 
 -----------------
 ### **Contact**
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; justify-content: space-around;">
     <div><a href="https://www.linkedin.com/in/beroud-dylan/"><img src="./Images/LinkedInLogo.png" alt="LinkedIn Logo" style="width:4%; padding:10px"> /in/beroud-dylan</a></div>
     <div><a href="mailto:dylan.beroud13@gmail.com"><img src="./Images/EmailLogo.png" alt="Email Logo" style="width:4%; padding:10px"> dylan.beroud13@gmail.com</a></div>
     <div><a href="https://github.com/Beroud-Dylan"><img src="./Images/GithubLogo.png" alt="Github Logo" style="width:8%; padding:10px"> Beroud-Dylan</a></div>
