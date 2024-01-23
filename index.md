@@ -31,8 +31,11 @@ Dans cette section, je partagerai des articles, écrits par moi-même, liés ou 
 <div style="display: flex; justify-content: space-between;">
     <div style="flex: 1; text-align: left;"><a href="https://www.linkedin.com/in/beroud-dylan/"><img src="./Images/LinkedInLogo.png" alt="LinkedIn Logo" style="width:4%;"> /in/beroud-dylan</a></div>
     <div style="flex: 1; text-align: left; margin-left:-70px"><a href="mailto:dylan.beroud13@gmail.com"><img src="./Images/EmailLogo.png" alt="Email Logo" style="width:4%;"> dylan.beroud13@gmail.com</a> </div>
-    <div style="text-align: right">® Tous droits réservés</div>
+    <div style="text-align: right"><a href="https://github.com/Beroud-Dylan"><img src="./Images/GithubLogo.png" alt="Github Logo" style="width:4%;">beroud-dylan</a></div>
 </div>
+ <div style="text-align: right">Tous droits réservés</div>
+</div>
+
 
 
 
