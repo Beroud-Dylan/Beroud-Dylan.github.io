@@ -27,7 +27,7 @@
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-    <div><a href="./rocknfall.html">Retour</a></div>
+    <div><a href="./rocknfall.html">Projet précédent</a></div>
     <div><a href="./index.html">Accueil</a></div>
     <div><a href="./soulinthecastle.html">Projet suivant</a></div>
 </div>
