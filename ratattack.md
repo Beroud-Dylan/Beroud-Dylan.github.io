@@ -27,6 +27,6 @@
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-    <div><a href="./soulinthecastle.html">Retour</a></div>
+    <div><a href="./soulinthecastle.html">Projet précédent</a></div>
     <div><a href="./index.html">Accueil</a></div>
 </div>
