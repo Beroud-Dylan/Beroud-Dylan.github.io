@@ -32,7 +32,7 @@
 <br>
 
 <div style="display: flex; justify-content: space-between;">
-    <div><a href="./slacken.html">Retour</a></div>
+    <div><a href="./slacken.html">Projet précédent</a></div>
     <div><a href="./index.html">Accueil</a></div>
     <div><a href="./punkfighter.html">Projet suivant</a></div>
 </div>
