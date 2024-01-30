@@ -35,7 +35,7 @@ Dans cette section, je partagerai des articles, écrits par moi-même, liés ou 
 </div>
 
 <div style="position: fixed; bottom: 20px; right: 20px; background-color: #f9c701; color: #090909; padding: 5px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); z-index: 1000; cursor: pointer; transition: transform 0.3s ease-in-out;">
-        <p>Je suis à la recherche d'un stage du 8 avril au 26 Juillet 2024 !</p>
+        <p><a href="mailto:dylan.beroud13@gmail.com">Je suis à la recherche d'un stage du 8 avril au 26 Juillet 2024 !</a></p>
 </div>
 
 
