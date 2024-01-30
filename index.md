@@ -34,7 +34,7 @@ Dans cette section, je partagerai des articles, écrits par moi-même, liés ou 
     <div style="text-align: right">® Tous droits réservés</div>
 </div>
 
-<div style="position: fixed; bottom: 20px; right: 20px; background-color: #3498db; color: #fff; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); z-index: 1000; cursor: pointer; transition: transform 0.3s ease-in-out;">
+<div style="position: fixed; bottom: 20px; right: 20px; background-color: #f9c701; color: #212120; padding: 10px; border-radius: 7px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); z-index: 1000; cursor: pointer; transition: transform 0.3s ease-in-out;">
         <p>Je suis à la recherche d'un stage du 8 avril au 26 Juillet 2024 !</p>
 </div>
 
