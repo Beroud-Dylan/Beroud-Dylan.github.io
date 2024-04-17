@@ -1,0 +1,145 @@
+/* Section d'Introduction */
+#Introduction
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: row;
+    column-gap: 10px;
+
+    height: 80vh;
+    padding-bottom: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Introduction>:first-child
+{
+    width:clamp(50%, 60%, 80%);
+
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+#Introduction>:last-child
+{
+    width:clamp(200px, 20%, 100%);
+}
+
+#Introduction h1
+{
+    margin-left: 20px;
+    font-size: clamp(30px, 5vw, 55px);
+}
+#Introduction p
+{
+    margin-left: 20px;
+    font-size: clamp(20px, 4vw, 40px);
+}
+#Introduction a
+{
+    opacity: 0;
+    animation: slideFromRight 1s ease forwards;
+    animation-delay: 1s;
+}
+#Introduction img
+{
+    width:100%;
+    border-radius: 100%;
+}
+
+#IntroductionButtons
+{
+    display: flex;
+    justify-content: left;
+    column-gap: 20px;
+
+    margin-left: 20px;
+}
+#IntroductionButtons button
+{
+    font-size: 16px;
+    
+    width:125px;
+    height:35px;
+}
+#IntroductionHr
+{
+    opacity: 0;
+    animation-name: slideFromBottom;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#name
+{
+    color:rgb(254, 179, 49);
+
+    opacity: 0;
+    animation-name: fadeInScale;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+#name::selection
+{
+    background: black;
+}
+
+/* Section des news */
+#News
+{
+    opacity: 0;
+    animation-name: slideFromBottom;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+#News>ul
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+/* Lorsque l'écran est petit */
+@media screen and (max-width: 960px)
+{
+    #Introduction
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #Introduction>:first-child
+    {
+        width:100%;
+        height:60%;
+    }
+    #Introduction h1, #Introduction p
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    #IntroductionDescription
+    {
+        margin-top: 10vh;
+    }
+    #Introduction>:last-child
+    {
+        height:40%;
+        width:clamp(200px, 30%, 100%);
+    }
+
+    #IntroductionButtons
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 20px;
+    }
+}

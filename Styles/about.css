@@ -1,0 +1,366 @@
+/* TRANSITIONS */
+hr
+{
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+
+/* Stylisation */
+.orangeName
+{
+    color:rgb(254, 179, 49);
+}
+.orangeName::selection
+{
+    background-color:black;
+}
+a .orangeName:hover
+{
+    color:rgb(255, 196, 93);
+}
+a .orangeName::selection
+{
+    color:rgb(255, 196, 93);
+}
+.violetName
+{
+    color:rgb(146, 56, 255);
+}
+.violetName::selection
+{
+    background-color:black;
+}
+
+/* SECTION McDown */
+#GameDev
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    flex-direction: row;
+    column-gap: 10px;
+
+    height: 75vh;
+    padding-bottom: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#GameDev>:first-child
+{
+    width:clamp(200px, 20%, 100%);
+}
+#GameDev>:last-child
+{
+    width:clamp(50%, 60%, 80%);
+
+    opacity: 0;
+    animation: slideFromRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+/* Gestion de l'image */
+#GameDev a
+{
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+#GameDev img
+{
+    width:100%;
+    border-radius: 100%;
+}
+
+/* Description */
+#GameDevInfos
+{
+    display: flex;
+    flex-direction: column;
+}
+#GameDevInfos>h1
+{
+    font-size: clamp(30px, 5vw, 55px);
+}
+#GameDevInfos p
+{
+    font-size: clamp(15px, 2vw, 25px);
+}
+#GameDevDescription
+{
+    margin-top: -30px;
+}
+
+/* Boutons */
+#GameDevButtons
+{
+    display: flex;
+    justify-content: center;
+    column-gap: clamp(20px, 10vw, 150px);
+}
+#GameDevButtons button
+{
+    font-size: clamp(10px, 1.5vw, 16px);
+    
+    width:clamp(175px, 10vw, 250px);
+    height:clamp(25px, 2vw, 35px);
+}
+
+/* SECTION Diversi'Tech */
+#Assoc
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    flex-direction: row;
+    column-gap: 10px;
+
+    height: 75vh;
+    padding-bottom: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#Assoc>:first-child
+{
+    width:clamp(50%, 60%, 80%);
+
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+#Assoc>:last-child
+{
+    width:clamp(200px, 20%, 100%);
+}
+
+/* Gestion de l'image */
+#Assoc a
+{
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+#Assoc img
+{
+    width:100%;
+    border-radius: 100%;
+}
+#Assoc img::selection
+{
+    background-color: rgb(128, 27, 217);
+}
+
+/* Description */
+#AssocInfos
+{
+    display: flex;
+    flex-direction: column;
+}
+#AssocInfos>h1
+{
+    font-size: clamp(30px, 5vw, 55px);
+}
+#AssocInfos p
+{
+    font-size: clamp(15px, 2vw, 25px);
+}
+#AssocDescription
+{
+    margin-top: -30px;
+}
+#AssocDescription>p::selection
+{
+    background-color: rgb(128, 27, 217);
+}
+
+/* Boutons */
+#AssocButtons
+{
+    display: flex;
+    justify-content: center;
+    column-gap: clamp(20px, 10vw, 150px);
+}
+#AssocButtons button
+{
+    font-size: clamp(10px, 1.5vw, 16px);
+    
+    width:clamp(175px, 10vw, 250px);
+    height:clamp(25px, 2vw, 35px);
+}
+
+#AssocSiteButton
+{
+    color:black;
+    background-color:rgb(154, 91, 255);
+    border-radius: 2%;
+
+    border: 2px solid #111111;
+    border-radius: 4px;
+
+    font-weight: bold;
+    transition: transform 0.5s ease;
+}
+#AssocSiteButton:hover
+{
+    color:black;
+    transform: scale(0.9);
+    background-color:rgb(127, 62, 232);
+
+    cursor:pointer;
+}
+#AssocSiteButton:focus
+{
+    color:black;
+    background-color:rgb(110, 49, 209);
+}
+#AssocSiteButton::selection
+{
+    background-color: rgb(128, 27, 217);
+}
+
+#ContactAssocButton
+{
+    color:black;
+    background-color:rgb(61, 171, 255);
+    border-radius: 2%;
+
+    border: 2px solid #111111;
+    border-radius: 4px;
+
+    font-weight: bold;
+    transition: transform 0.5s ease;
+}
+#ContactAssocButton:hover
+{
+    color:black;
+    transform: scale(0.9);
+    background-color:rgb(31, 93, 199);
+
+    cursor:pointer;
+}
+#ContactAssocButton:focus
+{
+    color:black;
+    background-color:rgb(22, 70, 173)
+}
+#ContactAssocButton::selection
+{
+    background-color: rgb(128, 27, 217);
+}
+
+/* Lorsque l'écran est petit */
+@media only screen and (max-width: 960px)
+{
+    /* SECTION McDown */
+    #GameDev
+    {
+        flex-direction: column;
+        height:70vh;
+        padding:10vh 0;
+    }
+    #GameDev>:first-child
+    {
+        width:clamp(100px, 20vh, 100%);
+    }
+    #GameDev>:last-child
+    {
+        height:70vh;
+        width:100%;
+
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+    #GameDev a 
+    {
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+
+    #GameDevInfos>h1
+    {
+        margin-left: 0;
+        text-align: center;
+
+        font-size: clamp(20px, 8vw, 55px);
+    }
+    #GameDevInfos p
+    {
+        text-align: left;
+        font-size: clamp(16px, 2vw, 25px);
+        margin: 2vh 5vw;
+    }
+    #GameDevButtons
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    #GameDevButtons button
+    {
+        font-size: clamp(8px, 2vw, 20px);
+
+        width:clamp(75px, 30vw, 500px);
+        height:clamp(15px, 4vh, 35px);
+    }
+
+    /* SECTION Diversi'Tech */
+    #Assoc
+    {
+        flex-direction: column-reverse;
+        row-gap:5vh;
+        height:70vh;
+        padding:10vh 0;
+    }
+    #Assoc>:first-child
+    {
+        height:70vh;
+        width:100%;
+
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+    #Assoc>:last-child
+    {
+        width:clamp(100px, 20vh, 100%);
+    }
+    #Assoc a 
+    {
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+
+    #AssocInfos>h1
+    {
+        margin-left: 0;
+        text-align: center;
+
+        font-size: clamp(20px, 8vw, 55px);
+    }
+    #AssocInfos p
+    {
+        text-align: left;
+        font-size: clamp(16px, 2vw, 25px);
+        margin: 2vh 5vw;
+    }
+    #AssocButtons
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    #AssocButtons button
+    {
+        font-size: clamp(8px, 2vw, 20px);
+
+        width:clamp(75px, 30vw, 500px);
+        height:clamp(15px, 4vh, 35px);
+    }
+}

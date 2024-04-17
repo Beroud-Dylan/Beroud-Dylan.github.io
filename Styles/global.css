@@ -1,0 +1,315 @@
+/* ANIMATIONS */
+@keyframes fadeInScale 
+{
+    0% 
+    {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% 
+    {
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+@keyframes slideFromLeft 
+{
+    0% 
+    {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% 
+    {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes slideFromRight 
+{
+    0% 
+    {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% 
+    {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes slideFromBottom 
+{
+    0% 
+    {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+    100% 
+    {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+@keyframes slideFromTop 
+{
+    0% 
+    {
+      opacity: 0;
+      transform: translateY(-500px);
+    }
+    100% 
+    {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+/* Modification du site en général */
+::selection
+{
+    background: rgb(254, 179, 49);
+}
+html
+{
+    background-color: #282828;
+    color:#fffae8;
+
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    overflow-x: hidden;
+}
+blockquote
+{
+    font-style:italic;
+}
+hr
+{
+    width:85vw;
+    height:1.5px;
+    background-color: #797979;
+    border:none;
+}
+
+/* Modification des liens */
+a
+{
+    color:#fffae8;
+    text-decoration: none;
+}
+a>img
+{
+    transition: transform 0.5s ease;
+}
+a>img:hover 
+{
+    
+    transform: scale(0.9);
+}
+
+/* Section de l'en-tête */
+header
+{
+    color: #fffae8;
+    background-color: #090909;
+    margin: -10px;
+    padding: 5px;
+    
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.494);
+
+    opacity: 0;
+    animation: slideFromTop 1s ease forwards;
+}
+header>nav>ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+    column-gap: 2.5em;
+    padding: 0;
+    
+    list-style: none;
+    text-align: center;
+}
+/* On ajoute un peu d'animation pour les boutons de navigations */
+header>nav>ul>li>a
+{
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    font-weight: bold;
+    font-size: clamp(14px, 2vw, 18px);
+}
+header>nav>ul>li>a:hover
+{
+    color:rgb(254, 179, 49);
+    transform: scale(1.2);
+}
+
+/* Sections Dynamiques */
+.dynamicSection
+{
+    min-height: 80vh;
+    margin-bottom: 15vh;
+}
+.dynamicSection>h2
+{
+    text-align: center;
+    font-size:clamp(30px, 3vw, 50px);
+    margin-bottom: 15vh;
+}
+.dynamicSection>p
+{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+}
+.dynamicSection>.dynamicSectionContainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 10vh;
+
+    text-align: center;
+}
+.dynamicSectionContainer>:nth-child(n)
+{
+    width:clamp(300px, 25%, 600px);
+}
+.dynamicSectionContainer img
+{
+    width:100%;
+    border-radius: 15px;
+}
+
+/* Boutons */
+.orangeButton
+{
+    color:black;
+    background-color:rgb(255, 166, 0);
+    border-radius: 2%;
+
+    border: 2px solid #111111;
+    border-radius: 4px;
+
+    font-weight: bold;
+    transition: transform 0.5s ease;
+}
+.orangeButton:hover
+{
+    color:black;
+    transform: scale(0.9);
+    background-color:rgb(254, 179, 49);
+
+    cursor:pointer;
+}
+.orangeButton:focus
+{
+    color:black;
+    background-color:rgb(254, 179, 49);
+}
+.orangeButton::selection
+{
+    background-color: rgb(255, 203, 114);
+}
+
+.whiteButton
+{
+    color:black;
+    background-color:#ebebeb;
+    border-radius: 2%;
+
+    border: 2px solid black;
+    border-radius: 4px;
+
+    font-weight: bold;
+    transition: transform 0.5s ease;
+}
+.whiteButton:hover
+{
+    color:black;
+    background-color:#cecece;
+    transform: scale(0.9);
+
+    cursor:pointer;
+}
+.whiteButton:focus
+{
+    color:black;
+    background-color:#cecece;
+}
+
+/* Section du footer */
+/* Footer */
+footer
+{
+    margin-top: 30px;
+    margin: 30px -10px -30px -10px;
+    padding-top: 30px;
+    background-color: #3f3c38;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>#Contacts
+{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+footer>#Contacts a
+{
+    width:clamp(50px, 5%, 75px);
+}
+footer>#Contacts img
+{
+    width:100%;
+    border-radius: 100%;
+}
+footer>hr
+{
+    width: 90vw;
+}
+footer p
+{
+    margin-top: 0px;
+    margin-bottom:5px;
+    text-align: center;
+}
+footer>#Rights
+{
+    margin:10px;
+    font-style: italic;
+}
+.contactLink
+{
+    transition: transform 0.5s ease;
+}
+.contactLink:hover
+{
+    transform: scale(0.75);
+}
+
+/* POUR LES TÉLÉPHONES */
+@media screen and (max-width: 540px)
+{
+    header>nav>ul
+    {
+        column-gap: 1.75em;
+    }
+    header>nav>ul>li>a
+    {
+        font-size: clamp(10px, 2vw, 15px);
+    }
+}
