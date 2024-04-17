@@ -1,0 +1,23 @@
+{
+    "name": "Beroud Dylan",
+    "short_name": "Beroud Dylan",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white",
+    "orientation": "portrait-primary",
+    "icons": 
+    [
+        {
+            "src": "/Resources/Images/Logos/McDown/Logo_128x128.png",
+            "type": "image/png",
+            "sizes": "128x128",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/Resources/Images/Logos/McDown/Logo_512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
