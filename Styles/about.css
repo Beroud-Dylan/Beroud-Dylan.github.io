@@ -272,7 +272,7 @@ a .orangeName::selection
         animation: slideFromBottom 1s ease forwards;
         animation-delay: 1s;
     }
-    #GameDev a 
+    #GameDev>a 
     {
         animation: slideFromBottom 1s ease forwards;
         animation-delay: 1s;
@@ -312,7 +312,6 @@ a .orangeName::selection
     #Assoc
     {
         flex-direction: column-reverse;
-        row-gap:5vh;
         height:70vh;
         padding:10vh 0;
     }
@@ -327,8 +326,9 @@ a .orangeName::selection
     #Assoc>:last-child
     {
         width:clamp(100px, 20vh, 100%);
+        margin-top: 10vh;
     }
-    #Assoc a 
+    #Assoc>a
     {
         animation: slideFromBottom 1s ease forwards;
         animation-delay: 1s;

@@ -255,6 +255,19 @@ footer
     flex-direction: column;
     align-items: center;
 }
+footer>#ScrollUp
+{
+    transition: transform 0.5s ease;
+}
+footer>#ScrollUp:hover
+{
+    transform: translateY(-20%);
+}
+footer>#ScrollUp img
+{
+    height:5vh;
+    margin-bottom:3vh;
+}
 footer>#Contacts
 {
     display: flex;
@@ -286,6 +299,7 @@ footer p
     margin-top: 0px;
     margin-bottom:5px;
     text-align: center;
+    font-size:clamp(15px, 5vh, 20px);
 }
 footer>#Rights
 {
@@ -311,5 +325,10 @@ footer>#Rights
     header>nav>ul>li>a
     {
         font-size: clamp(10px, 2vw, 15px);
+    }
+
+    footer p
+    {
+        font-size:clamp(15px, 4vw, 20px);
     }
 }
