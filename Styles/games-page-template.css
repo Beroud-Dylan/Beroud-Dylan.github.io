@@ -1,0 +1,283 @@
+/* Le CSS Global */
+main a
+{
+    color:rgb(255, 166, 0);
+}
+main a::selection
+{
+    background-color: black;
+}
+main a:hover, main a:focus
+{
+    color:rgb(255, 192, 83);
+}
+
+main h1
+{
+    font-size: clamp(30px, 5vw, 55px);
+}
+main h2
+{
+    font-size: clamp(25px, 4vw, 40px);
+}
+main p
+{
+    font-size: clamp(15px, 2vw, 25px);
+}
+
+/* Classe pour certains noms */
+.orangeName
+{
+    color:rgb(254, 179, 49);
+}
+.orangeName::selection
+{
+    background-color:black;
+}
+
+/* Le CSS à afficher si le JS n'est pas activé sur le site */
+#errorGames
+{
+    height:60vh;
+    margin-top: 10vh;
+
+    margin-left: 10vw;
+
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+/* CSS pour l'ensemble des sections dynamiques */
+
+/* SECTION DU TITRE */
+#TitleSection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    flex-direction: row;
+    column-gap: 10px;
+
+    min-height: 75vh;
+    padding-bottom: 10vh;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+#TitleSection>:first-child
+{
+    width:clamp(200px, 20%, 100%);
+}
+#TitleSection>:last-child
+{
+    width:clamp(50%, 60%, 80%);
+
+    opacity: 0;
+    animation: slideFromRight 1s ease forwards;
+    animation-delay: 1s;
+}
+/* Gestion de l'image */
+#TitleSection a
+{
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+#TitleSection img
+{
+    width:100%;
+    border-radius: 100%;
+}
+/* Gestion de la description */
+#TitleInfos
+{
+    display: flex;
+    flex-direction: column;
+}
+#TitleDescription
+{
+    margin-top: -30px;
+}
+#TitleHR
+{
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+
+/* SECTION DES INFORMATIONS */
+#InformationSection
+{
+    flex-direction: row;
+    column-gap: 10px;
+
+    height: 75vh;
+    padding-bottom: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#InformationSection>h1
+{
+    text-align: center;
+
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+#InformationContainer
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#InformationContainer>a
+{
+    width:clamp(175px, 20%, 100%);
+
+    opacity: 0;
+    animation: slideFromRight 1s ease forwards;
+    animation-delay: 2s;
+}
+#InformationContainer img
+{
+    width:100%;
+    border-radius: 100%;
+}
+#InformationData
+{
+    margin-top:0;
+
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 2s;
+}
+#InformationHR
+{
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+
+/* SECTIONS DES JEUX */
+#GamesAdditionalSections
+{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin:0 auto;
+}
+.gameSection
+{
+    margin-bottom: 10vh;
+
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+.gameSection>h2
+{
+    text-align: center;
+}
+.gameHeader
+{
+    margin-bottom: 5vh;
+}
+figcaption
+{
+    text-align: center;
+    margin:5px;
+}
+.gameVideos, .gameImages
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* column-gap: 30px; */
+    row-gap: 3vh;
+}
+.gameVideos video
+{
+    width:60vw;
+}
+.gameImages img
+{
+    border-radius: 10%;
+    width:clamp(200px, 60vw, 400px);
+}
+.gameImages figcaption
+{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Lorsque l'écran est petit */
+@media only screen and (max-width: 960px)
+{
+    main h1
+    {
+        font-size: clamp(20px, 8vw, 55px);
+    }
+    main h2
+    {
+        font-size: clamp(18px, 4vw, 40px);
+    }
+    main p
+    {
+        font-size: clamp(16px, 2vw, 25px);
+    }
+    #errorGames
+    {
+        margin-left: 0;
+        text-align: center;
+
+        opacity: 0;
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+
+    /* SECTION DU TITRE */
+    #TitleSection
+    {
+        flex-direction: column;
+        height:70vh;
+        padding:10vh 0;
+    }
+    #TitleSection>:first-child
+    {
+        width:clamp(100px, 20vh, 100%);
+    }
+    #TitleSection>:last-child
+    {
+        height:70vh;
+        width:100%;
+
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+    #TitleSection>a 
+    {
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+
+    #TitleInfos>h1
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    #TitleInfos p
+    {
+        text-align: left;
+        margin: 2vh 5vw;
+    }
+
+    /* SECTION DES INFOS */
+    #InformationContainer
+    {
+        flex-direction: column;        
+        height:100%;
+    }
+}

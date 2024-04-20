@@ -8,10 +8,9 @@
     flex-direction: row;
     column-gap: 10px;
 
-    height: 80vh;
-    padding-bottom: 10vh;
+    min-height: 80vh;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10vh;
 }
 #Introduction>:first-child
 {

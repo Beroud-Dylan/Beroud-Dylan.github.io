@@ -42,10 +42,9 @@ a .orangeName::selection
     flex-direction: row;
     column-gap: 10px;
 
-    height: 75vh;
-    padding-bottom: 10vh;
+    min-height: 75vh;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10vh;
 }
 #GameDev>:first-child
 {
@@ -117,7 +116,7 @@ a .orangeName::selection
     flex-direction: row;
     column-gap: 10px;
 
-    height: 75vh;
+    min-height: 75vh;
     padding-bottom: 10vh;
     margin-top: 0;
     margin-bottom: 0;
