@@ -105,6 +105,11 @@
     padding: 0;
 }
 
+footer
+{
+    animation-delay: 3s;
+}
+
 /* Lorsque l'écran est petit */
 @media screen and (max-width: 960px)
 {

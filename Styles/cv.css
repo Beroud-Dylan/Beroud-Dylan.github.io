@@ -13,3 +13,7 @@ iframe
     animation: fadeInScale 0.5s ease forwards;
     animation-delay: 1s;
 }
+footer
+{
+    animation-delay: 1s;
+}

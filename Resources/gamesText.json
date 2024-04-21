@@ -14,7 +14,7 @@
                 "assets": "Aucune",
                 "duration":"2 ans",
                 "platforms":"Windows, Mac, Linux",
-                "repoGithub_url":"https://github.com/McDownTheDev"
+                "repoGithub_url":""
             },
             "sections":
             [
@@ -30,8 +30,7 @@
                                 {
                                     "src":"./Resources/Videos/GenerationProcedurale.mp4",
                                     "type":"video/mp4",
-                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5.",
-                                    "caption":"Génération procédurale du monde"
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
                                 }
                             ],
                             "images":[]
@@ -125,8 +124,7 @@
                                 {
                                     "src":"./Resources/Videos/Trapped_HotStone.mp4",
                                     "type":"video/mp4",
-                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5.",
-                                    "caption":"Interaction entre des blocks de magma et des blocks de pierre"
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
                                 }
                             ],
                             "images":[]
@@ -138,8 +136,7 @@
                                 {
                                     "src":"./Resources/Videos/Trapped_LiquidReaction.mp4",
                                     "type":"video/mp4",
-                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5.",
-                                    "caption":"Interaction entre de l'eau et de la lave"
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
                                 }
                             ],
                             "images":[]
@@ -151,8 +148,7 @@
                                 {
                                     "src":"./Resources/Videos/Trapped_GrassToDirt.mp4",
                                     "type":"video/mp4",
-                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5.",
-                                    "caption":"Interaction lors de la pose d'un block"
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
                                 }
                             ],
                             "images":[]
@@ -171,8 +167,7 @@
                                 {
                                     "src":"./Resources/Videos/Trapped_Sliding.mp4",
                                     "type":"video/mp4",
-                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5.",
-                                    "caption":"Glissade sur de la glace"
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
                                 }
                             ],
                             "images":[]

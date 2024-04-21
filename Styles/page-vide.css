@@ -9,11 +9,8 @@ main
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
-
 footer
 {
-    opacity: 0;
-    animation: slideFromBottom 1s ease forwards;
     animation-delay: 1s;
 }
 
