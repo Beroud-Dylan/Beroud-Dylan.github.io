@@ -67,7 +67,10 @@ function LoadData(data, gameIndex = 0)
     htmlToRender += "<hr id='InformationHR'>";
 
     htmlToRender += "<section id='GamesAdditionalSections'>";
+    htmlToRender += "<h1>Présentation</h1>"
+    htmlToRender += "<section>";
     // On crée les différentes sections
+    var index = 0;
     data.games[gameIndex].sections.forEach(section => 
     {
         // On crée la section
@@ -76,13 +79,24 @@ function LoadData(data, gameIndex = 0)
         htmlToRender += "<p class='gameHeader'>" + section.description + "</p>";
 
         // On crée ses sous-sections
-        let index = 0;
+        var isFirstHeader = true;
         section.subsections.forEach(subSection => 
         {
             htmlToRender += "<div>";
-            htmlToRender += "<p>" + subSection.header + "</p>"
 
-            htmlToRender += "<section class='gameVideos'>";
+            // Si c'est le premier header
+            if(isFirstHeader)
+            {
+                htmlToRender += "<p>" + subSection.header + "</p>";
+                isFirstHeader = false;
+            }
+            else
+            {
+                // Sinon, il faut pouvoir centrer le texte de description de celle-ci
+                htmlToRender += "<p class='gameCenteredHeader'>" + subSection.header + "</p>";
+            }
+
+            htmlToRender += "<section class='gameGalery'>";
             // On ajoute d'abord toutes les vidéos
             subSection.videos.forEach(video =>
             {
@@ -91,12 +105,8 @@ function LoadData(data, gameIndex = 0)
                 htmlToRender += "<source src='" + video.src + "' type='" + video.type +"'>";
                 htmlToRender += video.alt;
                 htmlToRender += "</video>";
-                htmlToRender += "<figcaption>" + video.caption + "</figcaption>";
                 htmlToRender += "</figure>";
             });
-            htmlToRender += "</section>";
-
-            htmlToRender += "<section class='gameImages'>";
             // Puis toutes les images
             subSection.images.forEach(image =>
             {
@@ -112,8 +122,9 @@ function LoadData(data, gameIndex = 0)
         });
 
         htmlToRender += "</section>"
+        htmlToRender += "<hr class='gameSectionHr'>";
     });
-    htmlToRender += "</section>";
+    htmlToRender += "</section></section>";
 
     // On ajoute le tout au HTML
     document.querySelector("#main").innerHTML = htmlToRender;

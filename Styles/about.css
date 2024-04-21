@@ -249,6 +249,11 @@ a .orangeName::selection
     background-color: rgb(128, 27, 217);
 }
 
+footer
+{
+    animation-delay: 2s;
+}
+
 /* Lorsque l'écran est petit */
 @media only screen and (max-width: 960px)
 {
