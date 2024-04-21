@@ -1,0 +1,10 @@
+{
+    "articles":
+    [
+        {
+            "title":"Rapport de veille sur les Réseaux Neuronaux (en Intelligence Artificielle)",
+            "img_url":"./Resources/Images/Blog/reseauNeuronaux.jpg",
+            "article_url":"./Resources/Articles/RéseauxNeuronaux.pdf"
+        }
+    ]
+}

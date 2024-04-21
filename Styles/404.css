@@ -9,6 +9,18 @@ main
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
+main a
+{
+    color:rgb(255, 166, 0);
+}
+main a::selection
+{
+    background-color: black;
+}
+main a:hover, main a:focus
+{
+    color:rgb(255, 192, 83);
+}
 footer
 {
     animation-delay: 1s;

@@ -1,0 +1,156 @@
+/* CSS Global */
+.orangeName
+{
+    color:rgb(254, 179, 49);
+}
+.orangeName::selection
+{
+    background: black;
+}
+
+/* Section d'Introduction */
+#Introduction
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: row;
+    column-gap: 10px;
+
+    min-height: 80vh;
+    margin-top: 0;
+    margin-bottom: 10vh;
+}
+#Introduction>:first-child
+{
+    width:clamp(50%, 60%, 80%);
+
+    opacity: 0.001;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+#Introduction>:last-child
+{
+    width:clamp(200px, 20%, 100%);
+}
+
+#Introduction h1
+{
+    margin-left: 20px;
+    font-size: clamp(30px, 5vw, 55px);
+}
+#Introduction p
+{
+    margin-left: 20px;
+    font-size: clamp(20px, 4vw, 40px);
+}
+#Introduction a
+{
+    opacity: 0.001;
+    animation: slideFromRight 1s ease forwards;
+    animation-delay: 1s;
+}
+#Introduction img
+{
+    width:100%;
+    border-radius: 100%;
+}
+
+#IntroductionHr
+{
+    opacity: 0.001;
+    animation-name: slideFromBottom;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+/* SECTION DYNAMIQUE POUR LE BLOG */
+.dynamicSection
+{
+    opacity: 0.001;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 2s;
+}
+#ErrorJS
+{
+    color:rgb(255, 166, 0);
+}
+#ErrorJS::selection
+{
+    background-color: black;
+}
+#ErrorJS:hover, #ErrorJS:focus
+{
+    color:rgb(255, 192, 83);
+}
+.dynamicSection p
+{
+    margin-bottom: 5vh;
+}
+.dynamicSectionContainer
+{
+    padding:0;
+}
+.dynamicSectionContainer figure
+{
+    margin: 0;
+}
+.dynamicSectionContainer figcaption
+{
+    text-align: center;
+    margin:5px;
+
+    opacity: 0.001;
+    transition: opacity 0.5s ease;
+}
+
+#BlogNavigationButtons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:90%;
+    margin: 5vh auto;
+
+    opacity: 0.001;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+#BlogNavigationButtons button
+{
+    width:clamp(80px, 30%, 125px);
+    height:35px;
+}
+
+/* Lorsque l'écran est petit */
+@media screen and (max-width: 960px)
+{
+    #Introduction
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #Introduction>:first-child
+    {
+        width:100%;
+        height:60%;
+    }
+    #Introduction h1, #Introduction p
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    #IntroductionDescription
+    {
+        margin-top: 10vh;
+    }
+    #Introduction>:last-child
+    {
+        height:40%;
+        width:clamp(200px, 30%, 100%);
+    }
+}
