@@ -193,10 +193,7 @@ main p
 }
 .gameSection
 {
-    margin-top: 0;
-    margin-right:auto;
-    margin-left: auto;
-    margin-bottom: 10vh;
+    margin: 0 auto 10vh auto;
     width:90%;
 }
 .gameSection>h2
@@ -244,6 +241,31 @@ main p
 .gameSectionHr
 {
     width:75vw;
+}
+
+/* SECTION DE NAVIGATION DES BOUTONS */
+#gameNavigationButtons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:75%;
+    margin: 5vh auto;
+
+    opacity: 0;
+    animation: slideFromBottom 1s ease forwards;
+    animation-delay: 3s;
+}
+#gameNavigationButtons a
+{
+    width:clamp(80px, 30%, 125px);
+    height:35px;
+}
+#gameNavigationButtons button
+{
+    width:100%;
+    height:100%;
 }
 
 footer
@@ -329,8 +351,10 @@ footer
     {
         width:clamp(200px, 80vw, 400px);
     }
-    .gameSectionHr
+
+    /* SECTION DE NAVIGATION DES BOUTONS */
+    #gameNavigationButtons
     {
-        display: none;
+        width:90%;
     }
 }

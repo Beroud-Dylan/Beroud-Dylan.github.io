@@ -1,0 +1,41 @@
+main
+{
+    height:70vh;
+    margin-top: 10vh;
+
+    margin-left: 10vw;
+
+    opacity: 0;
+    animation: slideFromLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+main a
+{
+    color:rgb(255, 166, 0);
+}
+main a::selection
+{
+    background-color: black;
+}
+main a:hover, main a:focus
+{
+    color:rgb(255, 192, 83);
+}
+footer
+{
+    animation-delay: 1s;
+}
+
+/* Lorsque l'écran est petit */
+@media only screen and (max-width: 960px)
+{
+    main
+    {
+        margin-left: 0;
+        text-align: center;
+
+        opacity: 0;
+        animation: slideFromBottom 1s ease forwards;
+        animation-delay: 1s;
+    }
+}

@@ -5,7 +5,7 @@
             "title":"Trapped",
             "logo_link":"./Resources/Images/Jeux/Logos/Trapped_Logo.png",
             "logo_redirect_url":"https://mcdown.itch.io/trapped",
-            "description":"<p>Ce jeu est le plus gros projet sur lequel j'ai pu travailler jusqu'à présent. Il représente 2 ans de développement, que ce soit dans la rédaction d'un <a href='https://docs.google.com/document/d/1_1KQkmH81AEaGpWc58F0cResZkfwV0hweFI6ZmrWNoI/edit?usp=sharing'>Game Design Document</a> ainsi que dans la réalisation du projet, disponible dans sa dernière version sur <a href='https://mcdown.itch.io/trapped'>itch.io</a>.</p> <p>Cependant, il est aussi la réalisation personnelle de mon manque d'expérience. En effet, je me suis lancé dans un tel projet à l'âge de 15 ans, immédiatement après avoir réalisé mon premier jeu. Cela m'a certes apporté énormément de connaissance en termes d'organisation, de technique de programmation et d'assiduité, mais cela m'a également mis face à la réalité : j'étais incapable d'optimiser un tel programme.</p> <p>Je vous présente alors humblement ce projet, en temps que plus grande fierté, mais en toute humilité.</p>",
+            "description":"<p>Ce jeu est le plus gros projet sur lequel j'ai pu travailler jusqu'à présent. Il représente 2 ans de développement, que ce soit dans la rédaction d'un <a href='https://docs.google.com/document/d/1_1KQkmH81AEaGpWc58F0cResZkfwV0hweFI6ZmrWNoI/edit?usp=sharing' target='_blank'>Game Design Document</a> ainsi que dans la réalisation du projet, disponible dans sa dernière version sur <a href='https://mcdown.itch.io/trapped' target='_blank'>itch.io</a>.</p> <p>Cependant, il est aussi la réalisation personnelle de mon manque d'expérience. En effet, je me suis lancé dans un tel projet à l'âge de 15 ans, immédiatement après avoir réalisé mon premier jeu. Cela m'a certes apporté énormément de connaissance en termes d'organisation, de technique de programmation et d'assiduité, mais cela m'a également mis face à la réalité : j'étais incapable d'optimiser un tel programme.</p> <p>Je vous présente alors humblement ce projet, en temps que plus grande fierté, mais en toute humilité.</p>",
             "infos":
             {
                 "engine": "Unity 3D",
@@ -166,6 +166,196 @@
                             [
                                 {
                                     "src":"./Resources/Videos/Trapped_Sliding.mp4",
+                                    "type":"video/mp4",
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
+                                }
+                            ],
+                            "images":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Slacken",
+            "logo_link":"./Resources/Images/Jeux/Logos/Slacken_Logo.png",
+            "logo_redirect_url":"https://github.com/Beroud-Dylan/Slacken",
+            "description":"<p>À l'occasion du concours voodoo, je me suis lancé dans la création d'un petit jeu casual. Le but de ce projet était premièrement de réaliser un jeu mobile dans le style voodoo mais aussi d'apprendre à manier le temps car j'avais pour ambition de réaliser un jeu plus audacieux dont la mécanique principale serait de contrôler cette variable.</p><p>Ainsi, dans ce jeu, vous êtes capable de ralentir le temps pendant une certaine durée, mais lorsque que vous revenez à un écoulement de temps \"normal\", le temps s'accélère. Le tout est organisé dans une arène où le but est simplement de rester en vie le plus longtemps possible.</p>",
+            "infos":
+            {
+                "engine": "Unity 2D",
+                "type": "Casual (TPS)",
+                "status": "Fini",
+                "assets": "Effets sonores et joysticks",
+                "duration":"20 jours",
+                "platforms":"Android",
+                "repoGithub_url":"https://github.com/Beroud-Dylan/Slacken"
+            },
+            "sections":
+            [
+                {
+                    "title":"",
+                    "description":"",
+                    "subsections":
+                    [
+                        {
+                            "header":"Voici un petit trailer réalisé dans le but de présenter le jeu dans sa globalité.",
+                            "videos":
+                            [
+                                {
+                                    "src":"./Resources/Videos/TrailerSlacken.mp4",
+                                    "type":"video/mp4",
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
+                                }
+                            ],
+                            "images":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Rock'n'Fall",
+            "logo_link":"./Resources/Images/Jeux/Logos/RocknFall_Logo.png",
+            "logo_redirect_url":"https://play.google.com/store/apps/details?id=com.McDown.RocknFall",
+            "description":"<p>À l'occasion du concours voodoo, je me suis également lancé dans la création d'un jeu hypercasual. Ce jeu avait pour simple objectif de sortir de ma zone de confort en réalisant un projet totalement différent des précédents.<p>Vous pouvez retrouver le jeu <a href='https://play.google.com/store/apps/details?id=com.McDown.RocknFall' target='_blank'>ici</a>.</p><p>Ainsi, dans ce jeu, il est question de faire tomber une sorte de rocher sans que celui-ci ne se prenne d'obstacles. En prenant de la vitesse, le rocher peut arriver à casser certaines plateformes. Il est également possible de récupérer des pièces ou des boosts tout au long d'une partie. Enfin, les niveaux sont générés procéduralement.</p>",
+            "infos":
+            {
+                "engine": "Unity 2D",
+                "type": "Hypercasual",
+                "status": "Fini",
+                "assets": "Effets sonores",
+                "duration":"23 jours",
+                "platforms":"Android",
+                "repoGithub_url":"https://github.com/Beroud-Dylan/Rock-n-Fall"
+            },
+            "sections":
+            [
+                {
+                    "title":"",
+                    "description":"",
+                    "subsections":
+                    [
+                        {
+                            "header":"Voici un petit trailer réalisé dans le but de présenter le jeu dans sa globalité.",
+                            "videos":
+                            [
+                                {
+                                    "src":"./Resources/Videos/TrailerRocknFall.mp4",
+                                    "type":"video/mp4",
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
+                                }
+                            ],
+                            "images":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"PunkFighter",
+            "logo_link":"./Resources/Images/Jeux/Logos/PunkFighter_Logo.png",
+            "logo_redirect_url":"https://gamejolt.com/games/PunkFighter/473032",
+            "description":"<p>À l'occasion d'une game jam datant de mars 2020, je me suis lancé dans la création d'un jeu sur le thème \"punk\". Mon objectif était d'être capable de créer un jeu dans un laps de temps limité, car je participais à ma première game-jam en ligne.<p>Vous pouvez retrouver le jeu sur <a href='https://mcdown.itch.io/punkfighter' target='_blank'>itch.io</a>.</p><p>Dans celui-ci, il est question de repousser des vagues de punks sur une scène à l'aide d'une guitare qui se charge en son. Il y a différents types d'ennemis qui se battent dans des styles différents (corps à corps ou à distance). Il est également possible de personnaliser le joueur à l'aide de points gagnés à chaque partie.</p>",
+            "infos":
+            {
+                "engine": "Unity 2D",
+                "type": "TPS",
+                "status": "Fini",
+                "assets": "Effets sonores, musique et joysticks",
+                "duration":"10 jours",
+                "platforms":"Windows, Mac, Linux, Android",
+                "repoGithub_url":""
+            },
+            "sections":
+            [
+                {
+                    "title":"",
+                    "description":"",
+                    "subsections":
+                    [
+                        {
+                            "header":"Voici un petit gameplay sur ce jeu :",
+                            "videos":
+                            [
+                                {
+                                    "src":"./Resources/Videos/PunkFighter_Gameplay.mp4",
+                                    "type":"video/mp4",
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
+                                }
+                            ],
+                            "images":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"Soul in the Castle",
+            "logo_link":"./Resources/Images/Jeux/Logos/SoulInTheCastle_Logo.png",
+            "logo_redirect_url":"https://gamejolt.com/games/Soul-In-The-Castle/492705",
+            "description":"<p>À l'occasion d'une game jam organisée par le vidéaste francophone <a href='https://www.youtube.com/@TUTOUNITYFR' target='_blank'>Tuto Unity FR</a> datant de mai 2020, je me suis lancé dans la création d'un jeu sur le thème \"Les dés sont jetés\".</p><p>Vous pouvez le retrouver sur <a href='https://mcdown.itch.io/soul-in-the-castle' target='_blank'>itch.io</a>.</p><p>Dans celui-ci, il est question de repousser des vagues de goblins assiégeant le château d'une âme errante. Cependant, le joueur ne peut pas se débarrasser de ses ennemis par lui-même : il doit les guider vers des pièges pour s'en débarrasser.</p>",
+            "infos":
+            {
+                "engine": "Unity 2D",
+                "type": "STR en vue TPS",
+                "status": "Fini",
+                "assets": "Effets sonores et joysticks",
+                "duration":"2 jours",
+                "platforms":"Windows, Mac, Linux, Android",
+                "repoGithub_url":""
+            },
+            "sections":
+            [
+                {
+                    "title":"",
+                    "description":"",
+                    "subsections":
+                    [
+                        {
+                            "header":"Voici un petit gameplay sur ce jeu :",
+                            "videos":
+                            [
+                                {
+                                    "src":"./Resources/Videos/SoulInTheCastle_Gameplay.mp4",
+                                    "type":"video/mp4",
+                                    "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
+                                }
+                            ],
+                            "images":[]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"RatAttack",
+            "logo_link":"./Resources/Images/Jeux/Logos/RatAttack_Logo.png",
+            "logo_redirect_url":"https://mcdown.itch.io/ratattack",
+            "description":"<p>À l'occasion d'une game jam organisée par le vidéaste anglophone \"b3agz\" datant de février 2021, je me suis lancé dans la création d'un jeu sur le thème \"swarm\". Ce jeu s'est fièrement issé à la 6ème position sur un total de 28 submissions.</p><p>Vous pouvez retrouver l'ensemble des jeux réalisés pendant cette jam <a href='https://itch.io/jam/b3agz-jam/results' target='_blank'>ici</a> ainsi que <a href='https://mcdown.itch.io/ratattack' target='_blank'>RatAttack</a>.</p><p>Dans celui-ci, il est question de repousser des vagues de rats cherchant à grignoter un totem. Vous pouvez ainsi construire des tours, des canons et des fromages pour en venir à bout.</p>",
+            "infos":
+            {
+                "engine": "Unity 2D",
+                "type": "Tower Defense",
+                "status": "Fini",
+                "assets": "Effets sonores",
+                "duration":"3 jours",
+                "platforms":"Windows, Mac, Linux",
+                "repoGithub_url":""
+            },
+            "sections":
+            [
+                {
+                    "title":"",
+                    "description":"",
+                    "subsections":
+                    [
+                        {
+                            "header":"Voici un petit gameplay sur ce jeu :",
+                            "videos":
+                            [
+                                {
+                                    "src":"./Resources/Videos/RatAttack_Gameplay.mp4",
                                     "type":"video/mp4",
                                     "alt":"Votre navigateur ne supporte pas la lecture de vidéos HTML5."
                                 }
