@@ -1,3 +1,105 @@
+/* CSS du pop-up */
+@keyframes popOutAnimation
+{
+    0% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% 
+    {
+        opacity: 0;
+        transform: scale(0.4);
+    }
+}
+@keyframes popInAnimation 
+{
+    0% 
+    {
+        opacity: 0.0001;
+        transform: scale(0.4);
+    }
+    100% 
+    {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.popout
+{
+    animation: popOutAnimation 0.3s ease-in-out forwards;
+}
+.popin
+{
+    opacity: 0.0001;
+    animation: popInAnimation 0.3s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+#Popup
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    /* Positionnement du pop-up */
+    position: fixed;
+    bottom: 30px;
+    right: 30px; 
+    width: 350px;
+
+    background-color: #333;
+    color: #fff;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#PopupTitle
+{
+    color: rgb(254, 179, 49);
+
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#PopupTitle::selection
+{
+    background-color: black;
+}
+#PopupCloseBtn
+{
+    color: rgb(254, 179, 49);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#PopupCloseBtn::selection
+{
+    background: black;
+}
+
+#Popup>div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#PopupText 
+{
+    display: block;
+}
+
+#PopupCloseBtn :hover, #PopupCloseBtn :focus 
+{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* Section d'Introduction */
 #Introduction
 {
@@ -16,7 +118,7 @@
 {
     width:clamp(50%, 60%, 80%);
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
@@ -37,7 +139,7 @@
 }
 #Introduction a
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromRight 1s ease forwards;
     animation-delay: 1s;
 }
@@ -64,7 +166,7 @@
 }
 #IntroductionHr
 {
-    opacity: 0;
+    opacity: 0.001;
     animation-name: slideFromBottom;
     animation-duration: 1s;
     animation-delay: 3s;
@@ -76,7 +178,7 @@
 {
     color:rgb(254, 179, 49);
 
-    opacity: 0;
+    opacity: 0.001;
     animation-name: fadeInScale;
     animation-duration: 1s;
     animation-delay: 2s;
@@ -91,7 +193,7 @@
 /* Section des news */
 #News
 {
-    opacity: 0;
+    opacity: 0.001;
     animation-name: slideFromBottom;
     animation-duration: 1s;
     animation-delay: 3s;
@@ -145,5 +247,30 @@ footer
         align-items: center;
 
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (device-width < 600px)
+{
+    @keyframes popInAnimation 
+    {
+        0% 
+        {
+            opacity: 0.0001;
+            transform: scale(0.4);
+        }
+        100% 
+        {
+            opacity: 1;
+            transform: scale(1);
+            transform: translateX(-50%);
+        }
+    }
+
+    #Popup
+    {
+        width:300px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

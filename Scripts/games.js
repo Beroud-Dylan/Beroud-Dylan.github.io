@@ -8,13 +8,18 @@ let startIndex = 0;
 let endIndex = maxNbPaginationGames;
 
 // On récupère le fichier contenant l'ensemble des jeux
-const fileUrl = "./Resources/gamesText.json";
+const fileUrl = "./Resources/JSON/gamesText.json";
 fetch(fileUrl)
 .then(response => 
 {
-    if (!response.ok) 
+    if (!response.ok)
     {
-        throw new Error("Le fichier n'a pas été trouvé.");
+        var erreur = "Le fichier n'a pas été trouvé.";
+
+        var root = document.querySelector("#GamesSection");
+        root.innerHTML = "<h2>Erreur lors de la récupération des données des jeux</h2><p>" + erreur + "</p>";
+
+        throw new Error(erreur);
     }
 
     return response.json();
@@ -128,7 +133,6 @@ function RenderCaptionWhenMouseoverSetter()
 // Fonction permettant de modifier la pagination
 function ModifPagination()
 {
-    console.log(startIndex + " - " + endIndex);
     // On récupère l'élément HTML à modifier
     var root = document.querySelector('#Paginator');
     if(root == null)
@@ -143,11 +147,7 @@ function ModifPagination()
     }
 
     // On récupère la liste des jeux à afficher
-    var gamesToRender = jsonFile.games.slice(startIndex, endIndex);
-    gamesToRender.forEach(game => {
-        console.log(game.title);
-    });
-    
+    var gamesToRender = jsonFile.games.slice(startIndex, endIndex);    
     // On l'affiche
     var htmlToRender = LoadGames(gamesToRender);
     // On la met dans le root

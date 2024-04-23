@@ -1,5 +1,5 @@
 // On récupère le fichier json
-const fileUrl = "../Resources/gamesText.json";
+const fileUrl = "../Resources/JSON/gamesText.json";
 fetch(fileUrl)
 .then(response => 
 {
@@ -34,6 +34,7 @@ fetch(fileUrl)
 })
 .catch(error => 
 {
+    window.location.href = "./404.html";
     console.error("Il y a eu une erreur lors de la récupération du fichier json contenant les données des différents jeux :", error);
 });
 

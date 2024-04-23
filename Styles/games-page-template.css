@@ -3,7 +3,7 @@
 {
     0% 
     {
-      opacity: 0;
+      opacity: 0.001;
     }
     100% 
     {
@@ -56,7 +56,7 @@ main p
 
     margin-left: 10vw;
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
@@ -86,14 +86,14 @@ main p
 {
     width:clamp(50%, 60%, 80%);
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromRight 1s ease forwards;
     animation-delay: 1s;
 }
 /* Gestion de l'image */
 #TitleSection a
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
@@ -114,7 +114,7 @@ main p
 }
 #TitleHR
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 1s;
 }
@@ -134,7 +134,7 @@ main p
 {
     text-align: center;
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 1s;
 }
@@ -148,7 +148,7 @@ main p
 {
     width:clamp(175px, 20%, 100%);
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromRight 1s ease forwards;
     animation-delay: 2s;
 }
@@ -161,13 +161,13 @@ main p
 {
     margin-top:0;
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 2s;
 }
 #InformationHR
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 2s;
 }
@@ -178,7 +178,7 @@ main p
     width:100%;
     margin:0 auto;
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 3s;
 }
@@ -235,7 +235,7 @@ main p
     text-align: center;
     margin:5px;
 
-    opacity: 0;
+    opacity: 0.001;
     transition: opacity 0.5s ease;
 }
 .gameSectionHr
@@ -253,7 +253,7 @@ main p
     width:75%;
     margin: 5vh auto;
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 3s;
 }
@@ -293,7 +293,7 @@ footer
         margin-left: 0;
         text-align: center;
 
-        opacity: 0;
+        opacity: 0.001;
         animation: slideFromBottom 1s ease forwards;
         animation-delay: 1s;
     }

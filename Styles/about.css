@@ -1,7 +1,7 @@
 /* TRANSITIONS */
 hr
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 1s;
 }
@@ -54,7 +54,7 @@ a .orangeName::selection
 {
     width:clamp(50%, 60%, 80%);
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromRight 1s ease forwards;
     animation-delay: 1s;
 }
@@ -62,7 +62,7 @@ a .orangeName::selection
 /* Gestion de l'image */
 #GameDev a
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
@@ -125,7 +125,7 @@ a .orangeName::selection
 {
     width:clamp(50%, 60%, 80%);
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 1s;
 }
@@ -137,7 +137,7 @@ a .orangeName::selection
 /* Gestion de l'image */
 #Assoc a
 {
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromBottom 1s ease forwards;
     animation-delay: 1s;
 }

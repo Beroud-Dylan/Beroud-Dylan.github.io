@@ -5,7 +5,7 @@ main
 
     margin-left: 10vw;
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromLeft 1s ease forwards;
     animation-delay: 1s;
 }
@@ -34,7 +34,7 @@ footer
         margin-left: 0;
         text-align: center;
 
-        opacity: 0;
+        opacity: 0.001;
         animation: slideFromBottom 1s ease forwards;
         animation-delay: 1s;
     }

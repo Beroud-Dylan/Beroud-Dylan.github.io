@@ -3,7 +3,7 @@
 {
     0% 
     {
-      opacity: 0;
+      opacity: 0.001;
       transform: scale(0);
     }
     100% 
@@ -16,7 +16,7 @@
 {
     0% 
     {
-      opacity: 0;
+      opacity: 0.001;
       transform: translateX(-100%);
     }
     100% 
@@ -29,7 +29,7 @@
 {
     0% 
     {
-      opacity: 0;
+      opacity: 0.001;
       transform: translateX(100%);
     }
     100% 
@@ -42,7 +42,7 @@
 {
     0% 
     {
-      opacity: 0;
+      opacity: 0.001;
       transform: translateY(500px);
     }
     100% 
@@ -55,7 +55,7 @@
 {
     0% 
     {
-      opacity: 0;
+      opacity: 0.001;
       transform: translateY(-500px);
     }
     100% 
@@ -116,7 +116,7 @@ header
     
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.494);
 
-    opacity: 0;
+    opacity: 0.001;
     animation: slideFromTop 1s ease forwards;
 }
 header>nav>ul
